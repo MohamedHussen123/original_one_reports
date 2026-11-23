@@ -1,34 +1,530 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
+
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#38121e">
-<title>Original One | مركز تقارير البراندات</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&display=swap');
-:root{--ink:#32131d;--wine:#85001e;--wine2:#a61b39;--muted:#786b6f;--line:#eadfe2;--bg:#faf7f7;--pale:#f6e9ed;--white:#fff;--shadow:0 16px 38px #32131d0c}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'Alexandria',Tahoma,Arial,sans-serif;min-height:100vh;line-height:1.7}.top{display:flex;align-items:center;justify-content:space-between;max-width:1180px;margin:auto;padding:24px 26px}.wordmark{font-size:19px;font-weight:800;letter-spacing:.2px;color:var(--ink)}.wordmark span{color:var(--wine)}.top small{display:block;font-size:9px;letter-spacing:2.5px;color:var(--muted);direction:ltr;text-align:right}.top-tag{border:1px solid var(--line);border-radius:30px;padding:7px 13px;color:var(--muted);font-size:10px;background:#fff}.hero{max-width:1180px;margin:22px auto 26px;padding:0 26px}.hero-box{position:relative;overflow:hidden;border-radius:24px;background:linear-gradient(115deg,#38121e,#6f1229 70%,#8c263c);color:#fff;padding:46px 44px;box-shadow:0 20px 50px #51142624}.hero-box:after{content:'';position:absolute;width:330px;height:330px;border:1px solid #ffffff15;border-radius:50%;left:-60px;top:-190px;box-shadow:0 0 0 38px #ffffff08,0 0 0 80px #ffffff05}.eyebrow{font-size:10px;letter-spacing:1.7px;color:#f0c5cf;direction:ltr;text-align:right}.hero h1{font-size:30px;margin:8px 0 5px;line-height:1.5}.hero p{font-size:12px;color:#f1dfe3;margin:0;max-width:620px}.content{max-width:1180px;margin:auto;padding:0 26px 55px}.section-head{display:flex;justify-content:space-between;align-items:end;margin:25px 0 14px}.section-head h2{margin:0;font-size:17px}.section-head p{margin:2px 0 0;color:var(--muted);font-size:10px}.count{font-size:10px;color:var(--wine);background:var(--pale);padding:6px 10px;border-radius:30px}.brands{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.brand-card{position:relative;text-align:right;border:1px solid var(--line);background:#fff;border-radius:17px;padding:17px;min-height:180px;display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease;box-shadow:var(--shadow)}.brand-card.ready{cursor:pointer}.brand-card.ready:hover{transform:translateY(-3px);box-shadow:0 17px 34px #32131d15;border-color:#d5abb5}.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.logo-box{height:58px;min-width:88px;display:flex;align-items:center;justify-content:center;background:#fff;border:1px solid #f0e8ea;border-radius:12px;padding:7px 10px}.logo-box img{max-width:110px;max-height:42px;object-fit:contain}.placeholder-mark{width:42px;height:42px;display:grid;place-items:center;background:linear-gradient(145deg,#f8eff1,#fff);border:1px solid var(--line);color:#a88d95;border-radius:12px;font-size:18px;font-weight:700}.state{font-size:9px;padding:5px 9px;border-radius:20px;background:#edf5ef;color:#34664d}.state.pending{background:#f4f0f1;color:#84777a}.brand-card h3{font-size:15px;margin:14px 0 3px}.brand-card p{font-size:10px;color:var(--muted);margin:0;line-height:1.7}.card-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:14px;color:var(--wine);font-size:10px;font-weight:700}.card-foot .arrow{font-size:16px}.brand-card:not(.ready) .card-foot{color:#9b8e91;font-weight:500}.note{margin-top:17px;padding:13px 15px;background:#fff;border:1px solid var(--line);border-radius:12px;color:var(--muted);font-size:10px}.note b{color:var(--ink)}footer{text-align:center;color:#9a8c90;font-size:9px;padding:15px 20px 25px}.modal-backdrop{position:fixed;inset:0;background:#2012178a;display:none;align-items:center;justify-content:center;padding:18px;z-index:10}.modal-backdrop.show{display:flex}.modal{width:min(420px,100%);background:#fff;border-radius:18px;padding:24px;box-shadow:0 24px 70px #16090d44}.modal h2{font-size:17px;margin:0 0 7px}.modal p{font-size:11px;color:var(--muted);margin:0 0 18px}.modal button{font:inherit;border:0;background:var(--wine);color:#fff;border-radius:9px;padding:9px 17px;cursor:pointer}
-@media(max-width:900px){.brands{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-box{padding:38px 30px}}
-@media(max-width:560px){.top{padding:16px 15px}.wordmark{font-size:16px}.top-tag{font-size:8px;padding:6px 9px}.hero{padding:0 12px;margin:14px auto 22px}.hero-box{padding:28px 21px;border-radius:18px}.hero h1{font-size:23px}.hero p{font-size:11px}.eyebrow{font-size:8px}.content{padding:0 12px 40px}.section-head{align-items:flex-start;gap:8px;flex-direction:column}.brands{grid-template-columns:1fr;gap:9px}.brand-card{min-height:155px;padding:14px}.brand-card h3{margin-top:10px}.logo-box{height:52px}.note{font-size:9px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
-</style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#38121e">
+    <title>Original One | مركز تقارير البراندات</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&display=swap');
+
+        :root {
+            --ink: #32131d;
+            --wine: #85001e;
+            --wine2: #a61b39;
+            --muted: #786b6f;
+            --line: #eadfe2;
+            --bg: #faf7f7;
+            --pale: #f6e9ed;
+            --white: #fff;
+            --shadow: 0 16px 38px #32131d0c
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: 'Alexandria', Tahoma, Arial, sans-serif;
+            min-height: 100vh;
+            line-height: 1.7
+        }
+
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1180px;
+            margin: auto;
+            padding: 24px 26px
+        }
+
+        .wordmark {
+            font-size: 19px;
+            font-weight: 800;
+            letter-spacing: .2px;
+            color: var(--ink)
+        }
+
+        .wordmark span {
+            color: var(--wine)
+        }
+
+        .top small {
+            display: block;
+            font-size: 9px;
+            letter-spacing: 2.5px;
+            color: var(--muted);
+            direction: ltr;
+            text-align: right
+        }
+
+        .top-tag {
+            border: 1px solid var(--line);
+            border-radius: 30px;
+            padding: 7px 13px;
+            color: var(--muted);
+            font-size: 10px;
+            background: #fff
+        }
+
+        .hero {
+            max-width: 1180px;
+            margin: 22px auto 26px;
+            padding: 0 26px
+        }
+
+        .hero-box {
+            position: relative;
+            overflow: hidden;
+            border-radius: 24px;
+            background: linear-gradient(115deg, #38121e, #6f1229 70%, #8c263c);
+            color: #fff;
+            padding: 46px 44px;
+            box-shadow: 0 20px 50px #51142624
+        }
+
+        .hero-box:after {
+            content: '';
+            position: absolute;
+            width: 330px;
+            height: 330px;
+            border: 1px solid #ffffff15;
+            border-radius: 50%;
+            left: -60px;
+            top: -190px;
+            box-shadow: 0 0 0 38px #ffffff08, 0 0 0 80px #ffffff05
+        }
+
+        .eyebrow {
+            font-size: 10px;
+            letter-spacing: 1.7px;
+            color: #f0c5cf;
+            direction: ltr;
+            text-align: right
+        }
+
+        .hero h1 {
+            font-size: 30px;
+            margin: 8px 0 5px;
+            line-height: 1.5
+        }
+
+        .hero p {
+            font-size: 12px;
+            color: #f1dfe3;
+            margin: 0;
+            max-width: 620px
+        }
+
+        .content {
+            max-width: 1180px;
+            margin: auto;
+            padding: 0 26px 55px
+        }
+
+        .section-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            margin: 25px 0 14px
+        }
+
+        .section-head h2 {
+            margin: 0;
+            font-size: 17px
+        }
+
+        .section-head p {
+            margin: 2px 0 0;
+            color: var(--muted);
+            font-size: 10px
+        }
+
+        .count {
+            font-size: 10px;
+            color: var(--wine);
+            background: var(--pale);
+            padding: 6px 10px;
+            border-radius: 30px
+        }
+
+        .brands {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px
+        }
+
+        .brand-card {
+            position: relative;
+            text-align: right;
+            border: 1px solid var(--line);
+            background: #fff;
+            border-radius: 17px;
+            padding: 17px;
+            min-height: 180px;
+            display: flex;
+            flex-direction: column;
+            transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+            box-shadow: var(--shadow)
+        }
+
+        .brand-card.ready {
+            cursor: pointer
+        }
+
+        .brand-card.ready:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 17px 34px #32131d15;
+            border-color: #d5abb5
+        }
+
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 12px
+        }
+
+        .logo-box {
+            height: 58px;
+            min-width: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            border: 1px solid #f0e8ea;
+            border-radius: 12px;
+            padding: 7px 10px
+        }
+
+        .logo-box img {
+            max-width: 110px;
+            max-height: 42px;
+            object-fit: contain
+        }
+
+        .placeholder-mark {
+            width: 42px;
+            height: 42px;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(145deg, #f8eff1, #fff);
+            border: 1px solid var(--line);
+            color: #a88d95;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 700
+        }
+
+        .state {
+            font-size: 9px;
+            padding: 5px 9px;
+            border-radius: 20px;
+            background: #edf5ef;
+            color: #34664d
+        }
+
+        .state.pending {
+            background: #f4f0f1;
+            color: #84777a
+        }
+
+        .brand-card h3 {
+            font-size: 15px;
+            margin: 14px 0 3px
+        }
+
+        .brand-card p {
+            font-size: 10px;
+            color: var(--muted);
+            margin: 0;
+            line-height: 1.7
+        }
+
+        .card-foot {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: auto;
+            padding-top: 14px;
+            color: var(--wine);
+            font-size: 10px;
+            font-weight: 700
+        }
+
+        .card-foot .arrow {
+            font-size: 16px
+        }
+
+        .brand-card:not(.ready) .card-foot {
+            color: #9b8e91;
+            font-weight: 500
+        }
+
+        .note {
+            margin-top: 17px;
+            padding: 13px 15px;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            color: var(--muted);
+            font-size: 10px
+        }
+
+        .note b {
+            color: var(--ink)
+        }
+
+        footer {
+            text-align: center;
+            color: #9a8c90;
+            font-size: 9px;
+            padding: 15px 20px 25px
+        }
+
+        .modal-backdrop {
+            position: fixed;
+            inset: 0;
+            background: #2012178a;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 18px;
+            z-index: 10
+        }
+
+        .modal-backdrop.show {
+            display: flex
+        }
+
+        .modal {
+            width: min(420px, 100%);
+            background: #fff;
+            border-radius: 18px;
+            padding: 24px;
+            box-shadow: 0 24px 70px #16090d44
+        }
+
+        .modal h2 {
+            font-size: 17px;
+            margin: 0 0 7px
+        }
+
+        .modal p {
+            font-size: 11px;
+            color: var(--muted);
+            margin: 0 0 18px
+        }
+
+        .modal button {
+            font: inherit;
+            border: 0;
+            background: var(--wine);
+            color: #fff;
+            border-radius: 9px;
+            padding: 9px 17px;
+            cursor: pointer
+        }
+
+        @media(max-width:900px) {
+            .brands {
+                grid-template-columns: repeat(2, minmax(0, 1fr))
+            }
+
+            .hero-box {
+                padding: 38px 30px
+            }
+        }
+
+        @media(max-width:560px) {
+            .top {
+                padding: 16px 15px
+            }
+
+            .wordmark {
+                font-size: 16px
+            }
+
+            .top-tag {
+                font-size: 8px;
+                padding: 6px 9px
+            }
+
+            .hero {
+                padding: 0 12px;
+                margin: 14px auto 22px
+            }
+
+            .hero-box {
+                padding: 28px 21px;
+                border-radius: 18px
+            }
+
+            .hero h1 {
+                font-size: 23px
+            }
+
+            .hero p {
+                font-size: 11px
+            }
+
+            .eyebrow {
+                font-size: 8px
+            }
+
+            .content {
+                padding: 0 12px 40px
+            }
+
+            .section-head {
+                align-items: flex-start;
+                gap: 8px;
+                flex-direction: column
+            }
+
+            .brands {
+                grid-template-columns: 1fr;
+                gap: 9px
+            }
+
+            .brand-card {
+                min-height: 155px;
+                padding: 14px
+            }
+
+            .brand-card h3 {
+                margin-top: 10px
+            }
+
+            .logo-box {
+                height: 52px
+            }
+
+            .note {
+                font-size: 9px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+
+            *,
+            *:before,
+            *:after {
+                scroll-behavior: auto !important;
+                transition: none !important
+            }
+        }
+    </style>
 </head>
+
 <body>
-<header class="top"><div class="wordmark">ORIGINAL <span>ONE</span><small>CREATIVE · PERFORMANCE · GROWTH</small></div><span class="top-tag">مركز تقارير العملاء</span></header>
-<section class="hero"><div class="hero-box"><div class="eyebrow">ORIGINAL ONE · BRAND REPORTS</div><h1>كل براند، رؤيته ونتائجه في مكان واحد</h1><p>اختار البراند لفتح تقريره ومتابعة الأداء والحملات وخطة النمو. هذه الواجهة مهيأة لإضافة خمسة براندات.</p></div></section>
-<main class="content"><div class="section-head"><div><h2>اختار البراند</h2><p>اضغط على البراند لفتح التقرير الخاص به.</p></div><span class="count">4 من 5 تقارير جاهز</span></div>
-<section class="brands" aria-label="البراندات">
-<article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('vico.html')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('vico.html')}"><div class="card-top"><div class="logo-box"><img src="assets/vico-logo.png" alt="شعار VICO"></div><span class="state">التقرير متاح</span></div><h3>VICO Qatar</h3><p>تقرير الأداء التجاري، مراجعة نوفمبر 2026، ومقترحات نمو المبيعات وخطة ديسمبر.</p><div class="card-foot"><span>فتح تقرير VICO</span><span class="arrow">←</span></div></article>
-<article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('bleco.html')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('bleco.html')}"><div class="card-top"><div class="logo-box"><img src="assets/bleco-logo.jpg" alt="شعار بلاكو BLECO"></div><span class="state">التقرير متاح</span></div><h3>بلاكو · BLECO</h3><p>مراجعة أولية للبراند والمنتجات والحضور الاجتماعي وفجوة التفاعل، مع نقاط الفحص والخطوات التالية.</p><div class="card-foot"><span>فتح تقرير بلاكو</span><span class="arrow">←</span></div></article>
-<article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('decentcraft.html')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('decentcraft.html')}"><div class="card-top"><div class="logo-box"><img src="assets/decentcraft-logo.png" alt="شعار رونق الحرفة"></div><span class="state">التقرير متاح</span></div><h3>رونق الحرفة · Decent Craft</h3><p>تحليل أولي لأكتوبر 2026، مراجعة الموقع والحسابات، ومقترحات تطوير البراند وتجربة العميل.</p><div class="card-foot"><span>فتح تقرير رونق الحرفة</span><span class="arrow">←</span></div></article>
-<article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('originalone.html')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('originalone.html')}"><div class="card-top"><div class="logo-box"><img src="assets/originalone-logo.webp" alt="شعار مركز النسخة الوحيدة للتدريب"></div><span class="state">التقرير متاح</span></div><h3>النسخة الوحيدة للتدريب · Original One</h3><p>تحليل مساري الأفراد والجهات، وفكرة نمو مبنية على التمرّن على المواقف الواقعية قبل حدوثها.</p><div class="card-foot"><span>فتح تقرير النسخة الوحيدة</span><span class="arrow">←</span></div></article>
-<article class="brand-card" role="button" tabindex="0" onclick="showPending('البراند الخامس')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showPending('البراند الخامس')}"><div class="card-top"><div class="placeholder-mark">٥</div><span class="state pending">قيد الإضافة</span></div><h3>البراند الخامس</h3><p>تُضاف هويته وتقاريره بعد إدخال الاسم والشعار وبيانات الحملات.</p><div class="card-foot"><span>اختيار البراند</span><span class="arrow">←</span></div></article>
-</section><div class="note"><b>ملاحظة:</b> التقارير المتاحة حاليًا هي VICO Qatar وبلاكو ورونق الحرفة والنسخة الوحيدة للتدريب. البراند الخامس قيد الإضافة.</div></main>
-<footer>ORIGINAL ONE · مركز تقارير البراندات</footer>
-<div class="modal-backdrop" id="pendingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this)closePending()"><div class="modal"><h2 id="modalTitle">البراند قيد الإضافة</h2><p>أرسل اسم البراند وشعاره وتقاريره، وسأجهز له صفحة مستقلة بنفس بنية VICO مع ألوان مناسبة لهويته.</p><button onclick="closePending()">حسنًا</button></div></div>
-<script>function openBrand(path){window.location.href=path}function showPending(name){document.getElementById('modalTitle').textContent=name+' — قيد الإضافة';document.getElementById('pendingModal').classList.add('show')}function closePending(){document.getElementById('pendingModal').classList.remove('show')}document.addEventListener('keydown',e=>{if(e.key==='Escape')closePending()})</script>
-</body></html>
+    <header class="top">
+        <div class="wordmark">ORIGINAL <span>ONE</span><small>CREATIVE · PERFORMANCE · GROWTH</small></div><span
+            class="top-tag">مركز تقارير العملاء</span>
+    </header>
+    <section class="hero">
+        <div class="hero-box">
+            <div class="eyebrow">ORIGINAL ONE · BRAND REPORTS</div>
+            <h1>كل براند، رؤيته ونتائجه في مكان واحد</h1>
+            <p>اختار البراند لفتح تقريره ومتابعة الأداء والحملات وخطة النمو. هذه الواجهة مهيأة لإضافة خمسة براندات.</p>
+        </div>
+    </section>
+    <main class="content">
+        <div class="section-head">
+            <div>
+                <h2>اختار البراند</h2>
+                <p>اضغط على البراند لفتح التقرير الخاص به.</p>
+            </div><span class="count">4 من 5 تقارير جاهز</span>
+        </div>
+        <section class="brands" aria-label="البراندات">
+            <article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('vico.html')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('vico.html')}">
+                <div class="card-top">
+                    <div class="logo-box"><img src="assets/vico-logo.png" alt="شعار VICO"></div><span
+                        class="state">التقرير متاح</span>
+                </div>
+                <h3>VICO Qatar</h3>
+                <p>تقرير الأداء التجاري، مراجعة نوفمبر 2026، ومقترحات نمو المبيعات وخطة ديسمبر.</p>
+                <div class="card-foot"><span>فتح تقرير VICO</span><span class="arrow">←</span></div>
+            </article>
+            <article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('bleco.html')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('bleco.html')}">
+                <div class="card-top">
+                    <div class="logo-box"><img src="assets/bleco-logo.jpg" alt="شعار بلاكو BLECO"></div><span
+                        class="state">التقرير متاح</span>
+                </div>
+                <h3>بلاكو · BLECO</h3>
+                <p>مراجعة أولية للبراند والمنتجات والحضور الاجتماعي وفجوة التفاعل، مع نقاط الفحص والخطوات التالية.</p>
+                <div class="card-foot"><span>فتح تقرير بلاكو</span><span class="arrow">←</span></div>
+            </article>
+            <article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('decentcraft.html')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('decentcraft.html')}">
+                <div class="card-top">
+                    <div class="logo-box"><img src="assets/decentcraft-logo.png" alt="شعار رونق الحرفة"></div><span
+                        class="state">التقرير متاح</span>
+                </div>
+                <h3>رونق الحرفة · Decent Craft</h3>
+                <p>تحليل أولي لأكتوبر 2026، مراجعة الموقع والحسابات، ومقترحات تطوير البراند وتجربة العميل.</p>
+                <div class="card-foot"><span>فتح تقرير رونق الحرفة</span><span class="arrow">←</span></div>
+            </article>
+            <article class="brand-card ready" role="link" tabindex="0" onclick="openBrand('originalone.html')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openBrand('originalone.html')}">
+                <div class="card-top">
+                    <div class="logo-box"><img src="assets/originalone-logo.webp"
+                            alt="شعار مركز النسخة الوحيدة للتدريب"></div><span class="state">التقرير متاح</span>
+                </div>
+                <h3>النسخة الوحيدة للتدريب · Original One</h3>
+                <p>تحليل مساري الأفراد والجهات، وفكرة نمو مبنية على التمرّن على المواقف الواقعية قبل حدوثها.</p>
+                <div class="card-foot"><span>فتح تقرير النسخة الوحيدة</span><span class="arrow">←</span></div>
+            </article>
+            <article class="brand-card" role="button" tabindex="0" onclick="showPending('البراند الخامس')"
+                onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showPending('البراند الخامس')}">
+                <div class="card-top">
+                    <div class="placeholder-mark">٥</div><span class="state pending">قيد الإضافة</span>
+                </div>
+                <h3>البراند الخامس</h3>
+                <p>تُضاف هويته وتقاريره بعد إدخال الاسم والشعار وبيانات الحملات.</p>
+                <div class="card-foot"><span>اختيار البراند</span><span class="arrow">←</span></div>
+            </article>
+        </section>
+        <div class="note"><b>ملاحظة:</b> التقارير المتاحة حاليًا هي VICO Qatar وبلاكو ورونق الحرفة والنسخة الوحيدة
+            للتدريب. البراند الخامس قيد الإضافة.</div>
+    </main>
+    <footer>ORIGINAL ONE · مركز تقارير البراندات</footer>
+    <div class="modal-backdrop" id="pendingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+        onclick="if(event.target===this)closePending()">
+        <div class="modal">
+            <h2 id="modalTitle">البراند قيد الإضافة</h2>
+            <p>أرسل اسم البراند وشعاره وتقاريره، وسأجهز له صفحة مستقلة بنفس بنية VICO مع ألوان مناسبة لهويته.</p><button
+                onclick="closePending()">حسنًا</button>
+        </div>
+    </div>
+    <script>
+        function openBrand(path) {
+            window.location.href = path
+        }
 
+        function showPending(name) {
+            document.getElementById('modalTitle').textContent = name + ' — قيد الإضافة';
+            document.getElementById('pendingModal').classList.add('show')
+        }
 
+        function closePending() {
+            document.getElementById('pendingModal').classList.remove('show')
+        }
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closePending()
+        })
+    </script>
+</body>
 
-
+</html>

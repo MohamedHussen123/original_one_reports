@@ -7,8 +7,7 @@
     <title>VICO Qatar | تقرير الأداء وخطة نمو المبيعات</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;500;600;700;800&display=swap');
-
-        :root {
+         :root {
             --ink: #43101c;
             --wine: #85001e;
             --wine2: #a61b39;
@@ -24,15 +23,15 @@
             --white: #fff;
             --shadow: 0 8px 28px #49101a0a
         }
-
+        
         * {
             box-sizing: border-box
         }
-
+        
         html {
             scroll-behavior: smooth
         }
-
+        
         body {
             margin: 0;
             background: var(--bg);
@@ -40,7 +39,7 @@
             font-family: 'Alexandria', Tahoma, Arial, sans-serif;
             line-height: 1.75
         }
-
+        
         header {
             background: #fff;
             border-bottom: 1px solid var(--line);
@@ -53,18 +52,18 @@
             top: 0;
             z-index: 5
         }
-
+        
         .brand {
             display: flex;
             align-items: center;
             gap: 15px
         }
-
+        
         .brand img {
             width: 132px;
             height: auto
         }
-
+        
         .brand small {
             font-size: 10px;
             color: var(--muted);
@@ -73,13 +72,13 @@
             text-align: right;
             letter-spacing: .4px
         }
-
+        
         .controls {
             display: flex;
             gap: 9px;
             align-items: center
         }
-
+        
         .home-link {
             font-size: 11px;
             color: var(--wine);
@@ -89,11 +88,11 @@
             padding: 8px 10px;
             white-space: nowrap
         }
-
+        
         .home-link:hover {
             background: var(--pale)
         }
-
+        
         select,
         button {
             font: inherit;
@@ -103,7 +102,7 @@
             padding: 9px 13px;
             border-radius: 10px
         }
-
+        
         button {
             background: var(--wine);
             color: #fff;
@@ -111,7 +110,7 @@
             font-weight: 700;
             cursor: pointer
         }
-
+        
         .layout {
             max-width: 1240px;
             margin: auto;
@@ -120,7 +119,7 @@
             grid-template-columns: 215px minmax(0, 1fr);
             gap: 20px
         }
-
+        
         .side {
             align-self: start;
             position: sticky;
@@ -131,14 +130,14 @@
             padding: 13px;
             box-shadow: var(--shadow)
         }
-
+        
         .side b {
             display: block;
             font-size: 12px;
             color: var(--muted);
             padding: 6px 10px
         }
-
+        
         .side a {
             display: block;
             text-decoration: none;
@@ -147,16 +146,16 @@
             border-radius: 8px;
             font-size: 12px
         }
-
+        
         .side a:hover {
             background: var(--pale);
             color: var(--wine)
         }
-
+        
         main {
             min-width: 0
         }
-
+        
         .hero {
             background: linear-gradient(125deg, #fff 15%, #f7e9ed 100%);
             border: 1px solid var(--line);
@@ -166,7 +165,7 @@
             position: relative;
             overflow: hidden
         }
-
+        
         .hero:after {
             content: '';
             position: absolute;
@@ -177,33 +176,33 @@
             left: -60px;
             top: -90px
         }
-
+        
         .eyebrow {
             color: var(--wine);
             font-weight: 700;
             font-size: 11px
         }
-
+        
         .hero h1 {
             font-size: 25px;
             line-height: 1.5;
             margin: 6px 0
         }
-
+        
         .hero p {
             color: var(--muted);
             margin: 5px 0 0;
             max-width: 740px;
             font-size: 13px
         }
-
+        
         .badges {
             display: flex;
             flex-wrap: wrap;
             gap: 8px;
             margin-top: 15px
         }
-
+        
         .badge {
             background: #fff;
             border: 1px solid var(--line);
@@ -212,19 +211,19 @@
             font-size: 10px;
             color: var(--muted)
         }
-
+        
         .badge.warn {
             background: var(--amberbg);
             color: var(--amber);
             border-color: #f1dfc3
         }
-
+        
         .grid {
             display: grid;
             grid-template-columns: repeat(4, minmax(0, 1fr));
             gap: 12px
         }
-
+        
         .card {
             background: #fff;
             border: 1px solid var(--line);
@@ -233,65 +232,65 @@
             box-shadow: var(--shadow);
             min-width: 0
         }
-
+        
         .kpi label {
             font-size: 11px;
             color: var(--muted)
         }
-
+        
         .kpi strong {
             display: block;
             font-size: 21px;
             color: var(--wine);
             margin: 6px 0
         }
-
+        
         .kpi small {
             display: block;
             color: var(--muted);
             font-size: 10px;
             line-height: 1.7
         }
-
+        
         .section {
             margin-top: 17px;
             scroll-margin-top: 100px
         }
-
+        
         .section-title {
             font-size: 17px;
             margin: 0 0 4px
         }
-
+        
         .section-intro {
             color: var(--muted);
             font-size: 11px;
             margin: 0 0 12px
         }
-
+        
         .two {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 12px
         }
-
+        
         .three {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 12px
         }
-
+        
         .card h3 {
             font-size: 13px;
             margin: 0 0 7px
         }
-
+        
         .card p {
             font-size: 11px;
             color: var(--muted);
             margin: 5px 0
         }
-
+        
         .label {
             font-size: 10px;
             font-weight: 700;
@@ -299,37 +298,37 @@
             padding: 3px 9px;
             display: inline-block
         }
-
+        
         .confirmed {
             color: var(--green);
             background: var(--greenbg)
         }
-
+        
         .partial {
             color: var(--amber);
             background: var(--amberbg)
         }
-
+        
         .proposal {
             color: var(--wine);
             background: var(--pale)
         }
-
+        
         .hypothesis {
             color: #624d82;
             background: #f1edf7
         }
-
+        
         .table-wrap {
             overflow: auto
         }
-
+        
         .table {
             width: 100%;
             border-collapse: collapse;
             font-size: 10px
         }
-
+        
         .table th,
         .table td {
             text-align: right;
@@ -338,27 +337,27 @@
             border-bottom: 1px solid var(--line);
             min-width: 90px
         }
-
+        
         .table th {
             color: var(--muted);
             font-weight: 600;
             background: #fdfafb
         }
-
+        
         .table td:first-child {
             font-weight: 600
         }
-
+        
         .bullets {
             margin: 7px 0 0;
             padding-right: 19px;
             font-size: 11px
         }
-
+        
         .bullets li {
             margin: 5px 0
         }
-
+        
         .callout {
             background: var(--pale2);
             border-right: 3px solid var(--wine);
@@ -367,24 +366,24 @@
             font-size: 11px;
             margin-top: 11px
         }
-
+        
         .callout.green {
             background: var(--greenbg);
             border-color: var(--green)
         }
-
+        
         .callout.amber {
             background: var(--amberbg);
             border-color: #c88938
         }
-
+        
         .funnel {
             display: grid;
             grid-template-columns: repeat(5, minmax(0, 1fr));
             gap: 8px;
             margin-top: 12px
         }
-
+        
         .step {
             background: #fff;
             border: 1px solid var(--line);
@@ -393,18 +392,18 @@
             text-align: center;
             position: relative
         }
-
+        
         .step strong {
             font-size: 11px;
             display: block;
             color: var(--wine)
         }
-
+        
         .step span {
             font-size: 9px;
             color: var(--muted)
         }
-
+        
         .step:not(:last-child):after {
             content: '←';
             position: absolute;
@@ -414,73 +413,72 @@
             font-weight: bold;
             z-index: 2
         }
-
+        
         .campaign {
             border-top: 3px solid var(--wine)
         }
-
+        
         .campaign:nth-child(2) {
             border-top-color: #b36b3f
         }
-
+        
         .campaign:nth-child(3) {
             border-top-color: #6a4050
         }
-
+        
         .campaign h3 {
             font-size: 13px
         }
-
+        
         .campaign .objective {
             color: var(--wine);
             font-weight: 700
         }
-
+        
         .timeline {
             display: grid;
             grid-template-columns: repeat(4, minmax(0, 1fr));
             gap: 9px
         }
-
+        
         .week {
             background: #fff;
             border: 1px solid var(--line);
             border-radius: 12px;
             padding: 13px
         }
-
+        
         .week b {
             display: block;
             color: var(--wine);
             font-size: 11px
         }
-
+        
         .week p {
             font-size: 10px;
             color: var(--muted);
             margin: 5px 0 0
         }
-
+        
         .footnote {
             font-size: 10px;
             color: var(--muted);
             padding: 18px 0;
             text-align: center
         }
-
+        
         .missing {
             color: #946222
         }
-
+        
         .print-only {
             display: none
         }
-
+        
         @media(max-width:900px) {
             .layout {
                 grid-template-columns: 1fr
             }
-
             .side {
                 position: static;
                 display: flex;
@@ -488,118 +486,96 @@
                 align-items: center;
                 gap: 2px
             }
-
             .side b {
                 width: 100%
             }
-
             .grid {
                 grid-template-columns: repeat(2, 1fr)
             }
-
             .three {
                 grid-template-columns: 1fr
             }
-
             .two {
                 grid-template-columns: 1fr
             }
-
             .timeline {
                 grid-template-columns: repeat(2, 1fr)
             }
         }
-
+        
         @media(max-width:600px) {
             header {
                 position: static;
                 align-items: flex-start;
                 flex-direction: column
             }
-
             .brand img {
                 width: 100px
             }
-
             .controls {
                 width: 100%;
                 flex-wrap: wrap
             }
-
             .controls select {
                 flex: 1
             }
-
             .layout {
                 padding: 12px
             }
-
             .hero {
                 padding: 18px
             }
-
             .hero h1 {
                 font-size: 20px
             }
-
             .grid {
                 gap: 8px
             }
-
             .card {
                 padding: 13px
             }
-
             .funnel {
                 grid-template-columns: 1fr
             }
-
             .step:not(:last-child):after {
                 content: '↓';
                 left: 50%;
                 top: auto;
                 bottom: -15px
             }
-
             .timeline {
                 grid-template-columns: 1fr 1fr
             }
         }
-
+        
         @media(max-width:1100px) {
             .layout {
                 grid-template-columns: 190px minmax(0, 1fr);
                 gap: 14px;
                 padding: 16px
             }
-
             .grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
-
             .three {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
-
             .funnel {
                 grid-template-columns: repeat(3, minmax(0, 1fr))
             }
-
             .timeline {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
         }
-
+        
         @media(max-width:760px) {
             header {
                 padding: 14px 18px
             }
-
             .layout {
                 display: block;
                 padding: 14px
             }
-
             .side {
                 position: static;
                 display: flex;
@@ -609,11 +585,9 @@
                 margin-bottom: 14px;
                 scrollbar-width: thin
             }
-
             .side b {
                 display: none
             }
-
             .side a {
                 white-space: nowrap;
                 flex: 0 0 auto;
@@ -621,111 +595,89 @@
                 background: #fff;
                 border: 1px solid var(--line)
             }
-
             main {
                 width: 100%;
                 min-width: 0
             }
-
             .hero {
                 padding: 20px
             }
-
             .hero h1 {
                 font-size: 22px
             }
-
             .two,
             .three {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
-
             .funnel {
                 grid-template-columns: repeat(2, minmax(0, 1fr))
             }
-
             .step:not(:last-child):after {
                 display: none
             }
-
             .table-wrap {
                 max-width: 100%;
                 overflow-x: auto;
                 overscroll-behavior-x: contain
             }
-
             .table {
                 min-width: 650px
             }
-
             .card {
                 min-width: 0
             }
-
             .controls {
                 flex-wrap: wrap
             }
-
             .controls select,
             .controls button {
                 min-height: 42px
             }
         }
-
+        
         @media(max-width:520px) {
             .home-link {
                 font-size: 10px;
                 padding: 7px
             }
-
             .controls {
                 grid-template-columns: 1fr 1fr
             }
-
             .home-link {
                 grid-column: 1/-1;
                 text-align: center
             }
-
             header {
                 padding: 12px;
                 gap: 10px
             }
-
             .brand {
                 gap: 9px
             }
-
             .brand img {
                 width: 86px
             }
-
             .brand small {
                 font-size: 8px
             }
-
             .controls {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 width: 100%;
                 gap: 7px
             }
-
             .controls select,
             .controls button {
                 width: 100%;
                 padding: 8px 7px;
                 font-size: 11px
             }
-
             .controls button {
                 grid-column: 1/-1
             }
-
             .layout {
                 padding: 10px
             }
-
             .side {
                 margin: 0 -10px 12px;
                 padding: 8px 10px;
@@ -733,156 +685,124 @@
                 border-left: 0;
                 border-right: 0
             }
-
             .hero {
                 padding: 16px;
                 border-radius: 14px
             }
-
             .hero h1 {
                 font-size: 19px
             }
-
             .hero p {
                 font-size: 12px
             }
-
             .eyebrow {
                 font-size: 9px
             }
-
             .badges {
                 gap: 5px
             }
-
             .badge {
                 font-size: 9px
             }
-
             .grid {
                 grid-template-columns: repeat(2, minmax(0, 1fr));
                 gap: 8px
             }
-
             .card {
                 padding: 12px;
                 border-radius: 12px
             }
-
             .kpi strong {
                 font-size: 17px
             }
-
             .kpi label,
             .kpi small {
                 font-size: 9px
             }
-
             .section-title {
                 font-size: 15px
             }
-
             .section-intro {
                 font-size: 10px
             }
-
             .two,
             .three {
                 grid-template-columns: 1fr;
                 gap: 8px
             }
-
             .funnel {
                 grid-template-columns: 1fr;
                 gap: 7px
             }
-
             .step {
                 padding: 9px
             }
-
             .step span {
                 font-size: 10px
             }
-
             .timeline {
                 grid-template-columns: 1fr 1fr;
                 gap: 7px
             }
-
             .week {
                 padding: 10px
             }
-
             .week p {
                 font-size: 9px
             }
-
             .callout {
                 font-size: 10px;
                 padding: 9px 10px
             }
-
             .table {
                 min-width: 620px
             }
-
             .footnote {
                 font-size: 9px
             }
         }
-
+        
         @media(max-width:350px) {
-
             .grid,
             .timeline {
                 grid-template-columns: 1fr
             }
-
             .hero h1 {
                 font-size: 17px
             }
         }
-
+        
         @media print {
             body {
                 background: #fff;
                 font-size: 10px
             }
-
             header {
                 position: static;
                 padding: 10px 18px
             }
-
             .controls button {
                 display: none
             }
-
             .layout {
                 display: block;
                 padding: 10px;
                 max-width: none
             }
-
             .side {
                 display: none
             }
-
             .hero,
             .card {
                 box-shadow: none;
                 break-inside: avoid
             }
-
             .section {
                 break-inside: avoid
             }
-
             .footnote {
                 padding: 8px
             }
-
             .print-only {
                 display: block
             }
@@ -906,18 +826,15 @@
             </select><button onclick="window.print()">طباعة / حفظ PDF</button></div>
     </header>
     <div class="layout">
-        <nav class="side"><b>محتويات التقرير</b><a href="#summary">الملخص التنفيذي</a><a
-                href="#facts">المعلومات المؤكدة</a><a href="#diagnosis">تحليل البيع والتحويل</a><a
-                href="#growth">مقترحات زيادة البيع</a><a href="#campaigns">مسارات الحملات</a>
-            <a href="#meta">نتائج Instagram · Meta</a><a href="#tiktok">نتائج TikTok</a><a href="#ga4">زيارات المتجر · GA4</a><a href="#salesfindings">تحليل البيع وخطة ديسمبر</a><a href="#plan90">خطة 90 يوماً</a><a href="#december">خطة ديسمبر</a><a
-                href="#kpis">مؤشرات القياس</a><a href="#needed">البيانات المطلوبة</a>
+        <nav class="side"><b>محتويات التقرير</b><a href="#summary">الملخص التنفيذي</a><a href="#facts">المعلومات المؤكدة</a><a href="#diagnosis">تحليل البيع والتحويل</a><a href="#growth">مقترحات زيادة البيع</a><a href="#campaigns">مسارات الحملات</a>
+            <a href="#meta">نتائج Instagram · Meta</a><a href="#tiktok">نتائج TikTok</a><a href="#ga4">زيارات المتجر · GA4</a><a href="#salesfindings">تحليل البيع وخطة ديسمبر</a><a href="#plan90">خطة 90 يوماً</a><a href="#december">خطة ديسمبر</a><a href="#kpis">مؤشرات القياس</a>
+            <a href="#needed">البيانات المطلوبة</a>
         </nav>
         <main>
             <section class="hero" id="summary"><span class="eyebrow">VICO QATAR · تقرير الأداء التجاري وخطة نمو المبيعات
                     الرقمية</span>
                 <h1>من الاهتمام إلى الطلب المكتمل</h1>
-                <p>تجميع لما ورد عن VICO في المحادثة، مع خطة عملية لتحسين البيع الرقمي. الأرقام المعروضة تقتصر على ما
-                    ذُكر صراحةً؛ ولا تُنسب نتيجة الشهرين إلى نوفمبر وحده.</p>
+                <p>تجميع لما ورد عن VICO في المحادثة، مع خطة عملية لتحسين البيع الرقمي. الأرقام المعروضة تقتصر على ما ذُكر صراحةً؛ ولا تُنسب نتيجة الشهرين إلى نوفمبر وحده.</p>
                 <div class="badges"><span class="badge">فترة الحملتين: 7–15 نوفمبر 2026</span><span class="badge">خطة
                         العمل: ديسمبر 2026</span><span class="badge warn">نسخة أولية · بيانات الأداء التفصيلية غير
                         مرفقة</span></div>
@@ -975,13 +892,11 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="callout amber">تنبيه دقة: عبارة «عملية واحدة خلال شهرين» لا تثبت أن مبيعات نوفمبر وحده كانت
-                    عملية واحدة. نحتاج فصل الشهرين قبل اعتماد مقارنة شهرية.</div>
+                <div class="callout amber">تنبيه دقة: عبارة «عملية واحدة خلال شهرين» لا تثبت أن مبيعات نوفمبر وحده كانت عملية واحدة. نحتاج فصل الشهرين قبل اعتماد مقارنة شهرية.</div>
             </section>
             <section class="section" id="diagnosis">
                 <h2 class="section-title">2. مسار البيع ونقاط الفحص</h2>
-                <p class="section-intro">الإطار التالي يساعدنا على تحديد أين يتوقف العميل. لا توجد أرقام حالية لهذه
-                    المراحل.
+                <p class="section-intro">الإطار التالي يساعدنا على تحديد أين يتوقف العميل. لا توجد أرقام حالية لهذه المراحل.
                 </p>
                 <div class="card">
                     <div class="funnel">
@@ -990,20 +905,16 @@
                         <div class="step"><strong>إضافة للسلة</strong><span>من أحداث التجارة الإلكترونية في GA4 أو لوحة المتجر</span></div>
                         <div class="step"><strong>بدء الدفع</strong><span>من أحداث GA4 أو لوحة المتجر؛ وفشل الدفع من نظام المتجر/الدفع</span></div>
                         <div class="step"><strong>شراء مكتمل</strong><span>عملية رقمية واحدة خلال شهرين</span></div>
-                        <div class="callout" style="grid-column:1/-1">أول خطوة تشخيصية: ربط كل مرحلة بأرقام أسبوعية، ثم
-                            مطابقة أي هبوط مع اعتراضات السعر أو عوائق الدفع. بذلك نعرف إن كانت الأولوية للإعلان أم صفحة
-                            المنتج أم إتمام الطلب.</div>
+                        <div class="callout" style="grid-column:1/-1">أول خطوة تشخيصية: ربط كل مرحلة بأرقام أسبوعية، ثم مطابقة أي هبوط مع اعتراضات السعر أو عوائق الدفع. بذلك نعرف إن كانت الأولوية للإعلان أم صفحة المنتج أم إتمام الطلب.</div>
                     </div>
                 </div>
                 <div class="two" style="margin-top:12px">
                     <article class="card">
                         <h3>عوائق مؤكدة تستحق معالجة فورية</h3>
                         <ul class="bullets">
-                            <li><b>اعتراض السعر:</b> أظهر قيمة المنتج ومنافعه بوضوح، وقدّم مقارنة أو حزمة قيمة قبل خفض
-                                السعر.
+                            <li><b>اعتراض السعر:</b> أظهر قيمة المنتج ومنافعه بوضوح، وقدّم مقارنة أو حزمة قيمة قبل خفض السعر.
                             </li>
-                            <li><b>مشكلات الدفع:</b> اختبر رحلة الشراء كاملة على الهاتف، وتأكد من وضوح طرق الدفع ورسائل
-                                الخطأ وخطوات التأكيد.</li>
+                            <li><b>مشكلات الدفع:</b> اختبر رحلة الشراء كاملة على الهاتف، وتأكد من وضوح طرق الدفع ورسائل الخطأ وخطوات التأكيد.</li>
                         </ul>
                     </article>
                     <article class="card">
@@ -1019,8 +930,7 @@
             </section>
             <section class="section" id="growth">
                 <h2 class="section-title">3. مقترحات عملية لزيادة البيع</h2>
-                <p class="section-intro">توصيات أولية مبنية على العوائق المذكورة. تُعتمد بعد مراجعة المنتجات وهوامش
-                    الربح وقدرة التشغيل.</p>
+                <p class="section-intro">توصيات أولية مبنية على العوائق المذكورة. تُعتمد بعد مراجعة المنتجات وهوامش الربح وقدرة التشغيل.</p>
                 <div class="three">
                     <article class="card">
                         <h3>أ. عالج اعتراض السعر بالقيمة</h3>
@@ -1053,18 +963,15 @@
                 <div class="two" style="margin-top:12px">
                     <article class="card">
                         <h3>د. تابع المهتمين دون ضغط</h3>
-                        <p>إذا كانت هناك رسائل أو سلال متروكة، جهز متابعة قصيرة ومحترمة: إجابة عن سؤال العميل، تذكير
-                            بالمنتج، ثم توضيح العرض أو المساعدة في الدفع. لا تُرسل رسائل تسويقية إلا وفق موافقة العميل
-                            وسياسة القناة.</p>
+                        <p>إذا كانت هناك رسائل أو سلال متروكة، جهز متابعة قصيرة ومحترمة: إجابة عن سؤال العميل، تذكير بالمنتج، ثم توضيح العرض أو المساعدة في الدفع. لا تُرسل رسائل تسويقية إلا وفق موافقة العميل وسياسة القناة.</p>
                     </article>
                     <article class="card">
                         <h3>هـ. ابدأ بقياس بسيط منتظم</h3>
-                        <p>سجل أسبوعيًا: الإنفاق، الزيارات، الاستفسارات، إضافات السلة، بدء الدفع، الطلبات المكتملة
-                            والإيراد. صنف الطلبات حسب القناة والحملة، وسجل سبب عدم الشراء عند معرفته.</p>
+                        <p>سجل أسبوعيًا: الإنفاق، الزيارات، الاستفسارات، إضافات السلة، بدء الدفع، الطلبات المكتملة والإيراد. صنف الطلبات حسب القناة والحملة، وسجل سبب عدم الشراء عند معرفته.</p>
                     </article>
                 </div>
             </section>
-                        <section class="section" id="campaigns">
+            <section cسlass="section" id="campaigns">
                 <h2 class="section-title">4. خطة حملات بداية الشهر حول نزول الرواتب</h2>
                 <p class="section-intro">الإطلاق في بداية الشهر بالتزامن مع نزول الرواتب. نعتمد حملة مبيعات واحدة على Meta وTikTok بثلاث زوايا إبداعية، ونختبرها دون افتراض منتج أعلى مبيعًا.</p>
                 <div class="three">
@@ -1084,14 +991,13 @@
                         <p>إبراز الضمان لمدة سنتين كما أكده المستخدم، مع توضيح شروط الضمان في الإعلان أو صفحة المنتج.</p>
                     </article>
                 </div>
-                <div class="callout" style="margin-top:12px"><b>ميزانية اختبار مقترحة:</b> سقف إجمالي 2,400 SAR لعشرة أيام حول نزول الرواتب؛ 1,200 SAR على Meta و1,200 SAR على TikTok، بمتوسط 120 SAR يوميًا لكل منصة. هذا اختبار مبدئي محافظ، وليس ميزانية مبنية على عائد مثبت؛ مجموع الإنفاق الظاهر في تقريري Meta وTikTok نحو 3,025.84 SAR لكن نطاقيهما مختلفان، كما أن GA4 لا يسجل إيرادات أو أحداث شراء في اللقطات.</div>
+                <div class="callout" style="margin-top:12px"><b>ميزانية اختبار مقترحة:</b> سقف إجمالي 2,400 SAR لعشرة أيام حول نزول الرواتب؛ 1,200 SAR على Meta و1,200 SAR على TikTok، بمتوسط 120 SAR يوميًا لكل منصة. هذا اختبار مبدئي محافظ، وليس ميزانية مبنية على عائد مثبت؛ مجموع الإنفاق الظاهر في
+                    تقريري Meta وTikTok نحو 3,025.84 SAR لكن نطاقيهما مختلفان، كما أن GA4 لا يسجل إيرادات أو أحداث شراء في اللقطات.</div>
                 <div class="notice">قبل الإطلاق، اختبر تسجيل الطلب المكتمل بعد الدفع من الموقع وبوابة الدفع. إذا ظل تتبع الشراء غير جاهز، طابق الطلبات المدفوعة يدويًا مع مصدرها قبل زيادة الإنفاق.</div>
             </section>
             <section class="section" id="meta">
                 <h2 class="section-title">5. نتائج حملة Instagram (عبر Meta Ads) · 21 أكتوبر – 19 نوفمبر 2026</h2>
-                <p class="section-intro">حملة Instagram عبر Meta Ads كانت ضمن الإعلانات المتزامنة من 7 إلى 15 نوفمبر.
-                    لوحة Meta التي أُرسلت تعرض تجميعًا من 21 أكتوبر إلى 19 نوفمبر؛ لا تتوفر حاليًا أرقام مفصولة للأيام
-                    7–15 وحدها. هدف الحملة تفاعل والتحسين للمحادثات / الردود.</p>
+                <p class="section-intro">حملة Instagram عبر Meta Ads كانت ضمن الإعلانات المتزامنة من 7 إلى 15 نوفمبر. لوحة Meta التي أُرسلت تعرض تجميعًا من 21 أكتوبر إلى 19 نوفمبر؛ لا تتوفر حاليًا أرقام مفصولة للأيام 7–15 وحدها. هدف الحملة تفاعل والتحسين للمحادثات / الردود.</p>
                 <div class="grid">
                     <article class="card kpi"><label>الإنفاق</label><strong>SAR 1,339.80</strong><small>الإنفاق خلال
                             الفترة</small></article>
@@ -1194,17 +1100,14 @@
                         </div>
                     </article>
                 </div>
-                <div class="callout amber"><b>تحتاج الأرقام إلى توضيح:</b> التقرير يذكر 128 محادثة تم الرد عليها، لكنه
-                    يذكر أيضًا 156 محادثة وصلت إلى 3 تبادلات رسائل (و159 إلى تبادلين). هذا الترتيب قد يعكس اختلاف تعريف
-                    أو نافذة احتساب المؤشرات؛ لا نعتمد عليه قبل مراجعة مصدر Meta.
+                <div class="callout amber"><b>تحتاج الأرقام إلى توضيح:</b> التقرير يذكر 128 محادثة تم الرد عليها، لكنه يذكر أيضًا 156 محادثة وصلت إلى 3 تبادلات رسائل (و159 إلى تبادلين). هذا الترتيب قد يعكس اختلاف تعريف أو نافذة احتساب المؤشرات؛ لا نعتمد عليه قبل مراجعة مصدر Meta.
                     كذلك لا تعني المحادثات أو النقرات وجود طلبات أو مبيعات.</div>
                 <div class="two" style="margin-top:12px">
                     <article class="card">
                         <h3>قراءة النتائج</h3>
                         <ul class="bullets">
                             <li>الحملة حققت 239 بداية محادثة بتكلفة SAR 5.61 للمحادثة ضمن الفترة المذكورة.</li>
-                            <li>عدد مرات الظهور إلى الوصول يعطي تكرارًا تقريبيًا قدره 2.4؛ يستحق مراقبة تكرار الإعلان
-                                وتنوع التصميمات.</li>
+                            <li>عدد مرات الظهور إلى الوصول يعطي تكرارًا تقريبيًا قدره 2.4؛ يستحق مراقبة تكرار الإعلان وتنوع التصميمات.</li>
                             <li>هناك تفاعل ونقرات رابط، لكن لا تتوفر بيانات تربط هذه النتائج بطلبات مكتملة أو إيراد.
                             </li>
                             <li>الحملة متوقفة حاليًا، وبالتالي لا يوجد تسليم إعلاني جديد أثناء التوقف بحسب الملخص.</li>
@@ -1213,26 +1116,21 @@
                     <article class="card">
                         <h3>خطوات مقترحة من مراجعة Meta</h3>
                         <ol class="bullets">
-                            <li>راجع المسودة غير المنشورة، ثم قرر إعادة تفعيل الحملة إذا كان العرض والردود وتجربة الطلب
-                                جاهزين.
+                            <li>راجع المسودة غير المنشورة، ثم قرر إعادة تفعيل الحملة إذا كان العرض والردود وتجربة الطلب جاهزين.
                             </li>
                             <li>اختبر نسخة إبداعية بديلة مع تثبيت الجمهور والميزانية وتغيير عنصر واحد في كل مرة.</li>
-                            <li>حسّن رسالة الترحيب والرد السريع وسرعة تحويل المحادثة لموظف؛ ثم راقب نسبة الرد وجودة
-                                المحادثات.
+                            <li>حسّن رسالة الترحيب والرد السريع وسرعة تحويل المحادثة لموظف؛ ثم راقب نسبة الرد وجودة المحادثات.
                             </li>
                             <li>تابع التكرار بجانب CTR وتكلفة المحادثة، وأضف تنوعًا إبداعيًا إذا بدأ الأداء يضعف.</li>
                         </ol>
                         <p><span class="label proposal">مقترحات للتحقق والتنفيذ</span></p>
                     </article>
                 </div>
-                <div class="callout green">لا نساوي «محادثة بدأت» بـ«عملية بيع». لقياس أثر الحملة التجاري نحتاج ربط
-                    المحادثات بالطلبات والإيراد، مع تسجيل المنصة والحملة ومصدر الطلب.</div>
+                <div class="callout green">لا نساوي «محادثة بدأت» بـ«عملية بيع». لقياس أثر الحملة التجاري نحتاج ربط المحادثات بالطلبات والإيراد، مع تسجيل المنصة والحملة ومصدر الطلب.</div>
             </section>
             <section class="section" id="tiktok">
                 <h2 class="section-title">نتائج TikTok · حملة نوفمبر</h2>
-                <p class="section-intro">أكد المستخدم أن حملتي Instagram وTikTok اشتغلتا بالتوازي من 7 إلى 15 نوفمبر
-                    2026. لقطات TikTok تعرض نطاقًا من 7 إلى 19 نوفمبر؛ النتائج أدناه هي الأرقام كما ظهرت في اللقطات، ولا
-                    يوجد تفصيل يومي يعزل 7–15 عن بقية النطاق.</p>
+                <p class="section-intro">أكد المستخدم أن حملتي Instagram وTikTok اشتغلتا بالتوازي من 7 إلى 15 نوفمبر 2026. لقطات TikTok تعرض نطاقًا من 7 إلى 19 نوفمبر؛ النتائج أدناه هي الأرقام كما ظهرت في اللقطات، ولا يوجد تفصيل يومي يعزل 7–15 عن بقية النطاق.</p>
                 <div class="grid">
                     <article class="card kpi"><label>الإنفاق</label><strong>SAR 1,686.04</strong><small>على الإعلانات
                             الظاهرة</small></article>
@@ -1316,29 +1214,21 @@
                     <article class="card">
                         <h3>ما توحي به مقارنة الإعلانات</h3>
                         <ul class="bullets">
-                            <li>الإعلان الرابع سجّل أقل تكلفة تحويل ظاهرة (SAR 3.64) وأقل CPC (SAR 0.14) بين الإعلانات
-                                الأربعة.
+                            <li>الإعلان الرابع سجّل أقل تكلفة تحويل ظاهرة (SAR 3.64) وأقل CPC (SAR 0.14) بين الإعلانات الأربعة.
                             </li>
-                            <li>الإعلان الثاني صرف الحصة الأكبر من الميزانية وحقق أكبر عدد تحويلات (192)، لكن تكلفته SAR
-                                4.64 للتحويل.</li>
-                            <li>الإعلان الثالث أعلى تكلفة تحويل (SAR 14.09) وCPC (SAR 2.01)، مع إنفاق محدود جدًا (SAR
-                                28.17)، لذا العينة صغيرة ولا تكفي للحكم النهائي.</li>
-                            <li>الإعلان الأول سجّل صفر مشاهدات فيديو في اللقطة رغم وجود نقرات وتحويلات؛ يُحتمل اختلاف
-                                تنسيق/تعريف المشاهدة، ويحتاج مراجعة التقرير الأصلي.</li>
+                            <li>الإعلان الثاني صرف الحصة الأكبر من الميزانية وحقق أكبر عدد تحويلات (192)، لكن تكلفته SAR 4.64 للتحويل.</li>
+                            <li>الإعلان الثالث أعلى تكلفة تحويل (SAR 14.09) وCPC (SAR 2.01)، مع إنفاق محدود جدًا (SAR 28.17)، لذا العينة صغيرة ولا تكفي للحكم النهائي.</li>
+                            <li>الإعلان الأول سجّل صفر مشاهدات فيديو في اللقطة رغم وجود نقرات وتحويلات؛ يُحتمل اختلاف تنسيق/تعريف المشاهدة، ويحتاج مراجعة التقرير الأصلي.</li>
                         </ul>
                     </article>
                     <article class="card">
                         <h3>ماذا تعني «التحويلات»؟</h3>
-                        <p>المؤشر الظاهر في TikTok هو «Conversions» مع هدف محادثات في إعداد الحملة، ولا يوجد في اللقطات
-                            ما يثبت أنه عمليات شراء مكتملة. لذلك نسجل 391 كتحويلات منصة، ولا نسميها مبيعات قبل مطابقتها
-                            مع الطلبات والإيراد.</p>
-                        <div class="callout amber">الحملتان اشتغلتا بالتوازي من 7 إلى 15 نوفمبر حسب تأكيد المستخدم،
-                            بينما نطاق عرض TikTok يمتد إلى 19 نوفمبر. لذلك لا ننسب كل الأرقام للفترة 7–15 بدقة دون تصدير
-                            مفلتر لهذه الأيام.</div>
+                        <p>المؤشر الظاهر في TikTok هو «Conversions» مع هدف محادثات في إعداد الحملة، ولا يوجد في اللقطات ما يثبت أنه عمليات شراء مكتملة. لذلك نسجل 391 كتحويلات منصة، ولا نسميها مبيعات قبل مطابقتها مع الطلبات والإيراد.</p>
+                        <div class="callout amber">الحملتان اشتغلتا بالتوازي من 7 إلى 15 نوفمبر حسب تأكيد المستخدم، بينما نطاق عرض TikTok يمتد إلى 19 نوفمبر. لذلك لا ننسب كل الأرقام للفترة 7–15 بدقة دون تصدير مفلتر لهذه الأيام.</div>
                     </article>
                 </div>
             </section>
-            
+
             <section class="section" id="ga4">
                 <h2 class="section-title">زيارات المتجر · Google Analytics 4</h2>
                 <p class="section-intro">أرقام مأخوذة من لقطات GA4 للفترة من 24 أكتوبر إلى 20 نوفمبر 2026، كما يظهر في محدد التاريخ: 10 آلاف حدث مسجل.</p>
@@ -1351,158 +1241,256 @@
                 <div class="two" style="margin-top:12px">
                     <article class="card table-wrap">
                         <h3>الجلسات حسب المصدر / الوسيط</h3>
-                        <table class="table"><thead><tr><th>المصدر / الوسيط</th><th>الجلسات</th></tr></thead><tbody>
-                            <tr><td>(direct) / (none)</td><td>333</td></tr>
-                            <tr><td>ig / social</td><td>254</td></tr>
-                            <tr><td>google / organic</td><td>214</td></tr>
-                            <tr><td>tiktok.com / referral</td><td>38</td></tr>
-                            <tr><td>manage.bleco.sa / referral</td><td>21</td></tr>
-                            <tr><td>l.instagram.com / referral</td><td>14</td></tr>
-                            <tr><td>acceptance.tappayments.com.qa / referral</td><td>13</td></tr>
-                        </tbody></table>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>المصدر / الوسيط</th>
+                                    <th>الجلسات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>(direct) / (none)</td>
+                                    <td>333</td>
+                                </tr>
+                                <tr>
+                                    <td>ig / social</td>
+                                    <td>254</td>
+                                </tr>
+                                <tr>
+                                    <td>google / organic</td>
+                                    <td>214</td>
+                                </tr>
+                                <tr>
+                                    <td>tiktok.com / referral</td>
+                                    <td>38</td>
+                                </tr>
+                                <tr>
+                                    <td>manage.bleco.sa / referral</td>
+                                    <td>21</td>
+                                </tr>
+                                <tr>
+                                    <td>l.instagram.com / referral</td>
+                                    <td>14</td>
+                                </tr>
+                                <tr>
+                                    <td>acceptance.tappayments.com.qa / referral</td>
+                                    <td>13</td>
+                                </tr>
+                            </tbody>
+                        </table>
                         <p class="section-intro">هذه أبرز المصادر الظاهرة في الجدول، وليست بالضرورة جميع المصادر.</p>
                     </article>
                     <article class="card table-wrap">
                         <h3>الصفحات والمنتجات الأعلى مشاهدة</h3>
-                        <table class="table"><thead><tr><th>الصفحة</th><th>المشاهدات</th></tr></thead><tbody>
-                            <tr><td>فيكو - سيارتك أجمل</td><td>2.5 ألف</td></tr>
-                            <tr><td>تلبيسة الدايموند - فيكو</td><td>1.2 ألف</td></tr>
-                            <tr><td>تلبيسة الليزر - فيكو</td><td>1.1 ألف</td></tr>
-                            <tr><td>تلبيسة الفاخر - فيكو</td><td>841</td></tr>
-                            <tr><td>دعاسات الدايموند - فيكو</td><td>500</td></tr>
-                            <tr><td>دعاسات الليزر - فيكو</td><td>407</td></tr>
-                            <tr><td>دعاسات الفاخر - فيكو</td><td>254</td></tr>
-                        </tbody></table>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>الصفحة</th>
+                                    <th>المشاهدات</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>فيكو - سيارتك أجمل</td>
+                                    <td>2.5 ألف</td>
+                                </tr>
+                                <tr>
+                                    <td>تلبيسة الدايموند - فيكو</td>
+                                    <td>1.2 ألف</td>
+                                </tr>
+                                <tr>
+                                    <td>تلبيسة الليزر - فيكو</td>
+                                    <td>1.1 ألف</td>
+                                </tr>
+                                <tr>
+                                    <td>تلبيسة الفاخر - فيكو</td>
+                                    <td>841</td>
+                                </tr>
+                                <tr>
+                                    <td>دعاسات الدايموند - فيكو</td>
+                                    <td>500</td>
+                                </tr>
+                                <tr>
+                                    <td>دعاسات الليزر - فيكو</td>
+                                    <td>407</td>
+                                </tr>
+                                <tr>
+                                    <td>دعاسات الفاخر - فيكو</td>
+                                    <td>254</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </article>
                 </div>
-                <p class="section-intro">مشاهدات الصفحات لا تثبت المبيعات. وبحسب تأكيد المستخدم، مبيعات الموقع قليلة ولا تتوفر بيانات كافية لتحديد المنتج الأعلى مبيعًا عبر الويب.</p><div class="callout amber" style="margin-top:12px">مصدر google / organic يعني زيارات بحث طبيعية، وليس إعلانات Google Ads؛ المستخدم أكد عدم تشغيل حملات Google Ads. لقطات GA4 للفترة 24 أكتوبر–20 نوفمبر تعرض إجمالي إيرادات 0 وأحداثًا رئيسية 0؛ هذا يعني أن GA4 لا يسجل مشتريات/أحداثًا رئيسية في هذه اللقطات، ولا ينفي وجود مبيعات خارج التتبع.</div>
+                <p class="section-intro">مشاهدات الصفحات لا تثبت المبيعات. وبحسب تأكيد المستخدم، مبيعات الموقع قليلة ولا تتوفر بيانات كافية لتحديد المنتج الأعلى مبيعًا عبر الويب.</p>
+                <div class="callout amber" style="margin-top:12px">مصدر google / organic يعني زيارات بحث طبيعية، وليس إعلانات Google Ads؛ المستخدم أكد عدم تشغيل حملات Google Ads. لقطات GA4 للفترة 24 أكتوبر–20 نوفمبر تعرض إجمالي إيرادات 0 وأحداثًا رئيسية 0؛ هذا يعني أن GA4 لا يسجل مشتريات/أحداثًا رئيسية
+                    في هذه اللقطات، ولا ينفي وجود مبيعات خارج التتبع.</div>
             </section>
             <section class="section" id="salesfindings">
                 <h2 class="section-title">لماذا لم تتحول النتائج إلى مبيعات؟ وما خطة الشهر الجديد؟</h2>
-                <p class="section-intro">لدينا أدلة على نشاط إعلاني ومحادثات/تحويلات منصة، لكن لا نملك سجلًا يربطها
-                    بطلبات مدفوعة؛ لذا نفصل بين ما نعرفه وما نختبره.</p>
+                <p class="section-intro">لدينا أدلة على نشاط إعلاني ومحادثات/تحويلات منصة، لكن لا نملك سجلًا يربطها بطلبات مدفوعة؛ لذا نفصل بين ما نعرفه وما نختبره.</p>
                 <div class="two">
                     <article class="card">
                         <h3>أسباب محتملة تحتاج إثباتًا</h3>
                         <ul class="bullets">
-                            <li><b>فجوة بين التحويل والشراء:</b> الحملة محسّنة للمحادثات، وقد يُسجل التحويل قبل إتمام
-                                الطلب.
+                            <li><b>فجوة بين التحويل والشراء:</b> الحملة محسّنة للمحادثات، وقد يُسجل التحويل قبل إتمام الطلب.
                             </li>
-                            <li><b>متابعة المحادثة:</b> بيانات Meta السابقة أظهرت 239 بداية محادثة و128 ردًا (53.6%)، ما
-                                قد يشير إلى تسرب بعد البداية؛ نحتاج تعريف المنصة للأحداث وتوقيت الرد.</li>
-                            <li><b>السعر والقيمة:</b> سبق أن ذُكرت اعتراضات سعرية؛ نختبر توضيح الجودة والقيمة والعرض قبل
-                                افتراض أن السعر وحده هو السبب.</li>
-                            <li><b>الدفع وإكمال الطلب:</b> سبق ذكر مشكلات دفع، ولا تتوفر أعداد السلات أو محاولات الدفع
-                                الفاشلة.
+                            <li><b>متابعة المحادثة:</b> بيانات Meta السابقة أظهرت 239 بداية محادثة و128 ردًا (53.6%)، ما قد يشير إلى تسرب بعد البداية؛ نحتاج تعريف المنصة للأحداث وتوقيت الرد.</li>
+                            <li><b>السعر والقيمة:</b> سبق أن ذُكرت اعتراضات سعرية؛ نختبر توضيح الجودة والقيمة والعرض قبل افتراض أن السعر وحده هو السبب.</li>
+                            <li><b>الدفع وإكمال الطلب:</b> سبق ذكر مشكلات دفع، ولا تتوفر أعداد السلات أو محاولات الدفع الفاشلة.
                             </li>
-                            <li><b>القياس:</b> لا توجد بيانات موحدة عن الطلبات المدفوعة حسب TikTok وInstagram والحملة
-                                والإعلان.
+                            <li><b>القياس:</b> لا توجد بيانات موحدة عن الطلبات المدفوعة حسب TikTok وInstagram والحملة والإعلان.
                             </li>
                         </ul>
                     </article>
                     <article class="card">
                         <h3>خطة ديسمبر · حملة تركز على البيع</h3>
                         <ul class="bullets">
-                            <li><b>الرسالة:</b> «لماذا VICO مميزة؟» إبراز الجودة، تفاصيل المنتج، طريقة الاستخدام،
-                                والفوائد المثبتة بالصور والفيديو.</li>
-                            <li><b>المحتوى:</b> فيديوهات قصيرة يصنعها المستخدم: عرض المنتج، لقطة جودة/تفاصيل، تجربة
-                                استخدام أو إجابة سؤال عميل، مع دعوة واضحة للشراء.</li>
-                            <li><b>التحويل:</b> توجيه الإعلان لصفحة المنتج أو المحادثة مع تعريف واضح للطلب الناجح،
-                                ومتابعة سريعة ورسالة ترحيب.</li>
-                            <li><b>اختبارات محدودة:</b> اختبار زاويتين إبداعيتين مع تثبيت الجمهور والعرض والميزانية قدر
-                                الإمكان، ثم نقل الميزانية تدريجيًا للأفضل بعد قراءة الطلبات المدفوعة.</li>
-                            <li><b>حل عوائق الشراء:</b> مراجعة الدفع على الهاتف، إظهار طرق الدفع والشحن والسياسات بوضوح،
-                                وتقديم باقة قيمة إذا سمح هامش الربح.</li>
-                            <li><b>قرار التحسين:</b> الحكم على تكلفة الطلب المدفوع والإيراد والهامش، لا على عدد
-                                المحادثات أو المشاهدات وحده.</li>
+                            <li><b>الرسالة:</b> «لماذا VICO مميزة؟» إبراز الجودة، تفاصيل المنتج، طريقة الاستخدام، والفوائد المثبتة بالصور والفيديو.</li>
+                            <li><b>المحتوى:</b> فيديوهات قصيرة يصنعها المستخدم: عرض المنتج، لقطة جودة/تفاصيل، تجربة استخدام أو إجابة سؤال عميل، مع دعوة واضحة للشراء.</li>
+                            <li><b>التحويل:</b> توجيه الإعلان لصفحة المنتج أو المحادثة مع تعريف واضح للطلب الناجح، ومتابعة سريعة ورسالة ترحيب.</li>
+                            <li><b>اختبارات محدودة:</b> اختبار زاويتين إبداعيتين مع تثبيت الجمهور والعرض والميزانية قدر الإمكان، ثم نقل الميزانية تدريجيًا للأفضل بعد قراءة الطلبات المدفوعة.</li>
+                            <li><b>حل عوائق الشراء:</b> مراجعة الدفع على الهاتف، إظهار طرق الدفع والشحن والسياسات بوضوح، وتقديم باقة قيمة إذا سمح هامش الربح.</li>
+                            <li><b>قرار التحسين:</b> الحكم على تكلفة الطلب المدفوع والإيراد والهامش، لا على عدد المحادثات أو المشاهدات وحده.</li>
                         </ul>
                         <p><span class="label proposal">هدف ديسمبر: زيادة المبيعات</span></p>
                     </article>
                 </div>
-                <div class="callout green">المعلومة المؤكدة عن الحملة الجديدة: هدفها زيادة المبيعات والتركيز على تميز
-                    VICO وجودة المنتج. تفاصيل المنتجات والعرض والميزانية وصور المنتجات تُضاف عند استلامها.</div>
+                <div class="callout green">المعلومة المؤكدة عن الحملة الجديدة: هدفها زيادة المبيعات والتركيز على تميز VICO وجودة المنتج. تفاصيل المنتجات والعرض والميزانية وصور المنتجات تُضاف عند استلامها.</div>
             </section>
             <section class="section" id="plan90">
-  <h2 class="section-title">6. خطة تحسين وتحويل خلال 90 يوماً</h2>
-  <p class="section-intro">المقترحات التالية واردة في ملف تحليل الأعمال بتاريخ 23 نوفمبر 2026، وتحوّلها إلى مراحل تنفيذ قابلة للمتابعة. تُعتمد الأسعار والميزانية بعد مراجعة المخزون والتكلفة وقدرة التركيب.</p>
-  <div class="callout"><b>ترتيب المنتج للعميل:</b> أرضية السيارة الأصلية ← تلبيسة VICO (المنتج الأساسي) ← درع VICO اختياري قابل للإزالة. الفصل البصري واللفظي بين التلبيسة والدرع يقلل الخلط ويشرح سبب اختيار كل طبقة.</div>
-  <div class="two" style="margin-top:10px">
-    <article class="card"><h3>هيكل المنتجات والباقات المقترح</h3><ul class="bullets">
-      <li><b>تلبيسة VICO:</b> المنتج الأساسي؛ تظهر خيارات Diamond (12 مم)، Laser (10 مم)، وLuxury / Elegance (14 مم) كما وردت في الملف، بعد مطابقة المواصفات مع كتالوج المنتجات.</li>
-      <li><b>VICO Shield – Fabric:</b> طبقة علوية قماشية قابلة للإزالة تساعد على التقاط الغبار والرمل ويمكن نفضها أو تنظيفها وفق تعليمات العناية.</li>
-      <li><b>VICO Shield – Clear / Waterproof:</b> طبقة علوية شفافة مقاومة للسوائل، تُمسح بسهولة بحسب مواصفات المنتج.</li>
-      <li><b>أساسي:</b> التلبيسة فقط. <b>حماية (موصى بها):</b> التلبيسة + درع القماش. <b>حماية كاملة:</b> التلبيسة + الدرع الشفاف. لا نعرض سعرًا قبل تأكيد سعر كل تركيبة وهامشها.</li>
-      <li>نوضح أن الدرع طبقة إضافية اختيارية تحمي التلبيسة؛ ونستخدم أسماء ورسومًا متسقة في الموقع والإعلانات والكتالوج.</li>
-    </ul></article>
-    <article class="card"><h3>إصلاح مسار الشراء والثقة</h3><ul class="bullets">
-      <li>استبدال السعر الظاهر بصفر بسعر فعلي، أو «يبدأ من ___ ر.ق» مع بيان ما يغيّر السعر، وإظهار الأسعار قبل اختيار الخيارات.</li>
-      <li>إضافة زر واتساب واضح في صفحات المنتج والبايو وGoogle Business Profile، وإعداد كتالوج WhatsApp Business وردود سريعة وتصنيفات متابعة.</li>
-      <li>توحيد شرح التوصيل والتركيب المجاني في جميع مناطق قطر، وضمان السنتين وشروطه، ومنشأ المنتج والخامات.</li>
-      <li>فحص رابط الدفع وإتمام طلب تجريبي على الهاتف، وتسجيل السلة وبدء الدفع وفشل الدفع والشراء المكتمل.</li>
-      <li>استبدال التقييمات الصفرية بدعوة محايدة للعملاء الحقيقيين لترك رأي بعد التركيب، عبر رابط أو QR؛ دون هدايا أو خصومات مقابل التقييم.</li>
-    </ul></article>
-  </div>
-  <div class="table-wrap card" style="margin-top:10px"><table class="table"><thead><tr><th>المرحلة</th><th>العمل</th><th>علامة التقدم</th></tr></thead><tbody>
-    <tr><td>الأيام 1–30 · إصلاح الأساسيات</td><td>اعتماد مواصفات وأسعار المنتجات والباقات، تصحيح السعر والصور والأسماء، إضافة واتساب، إصلاح الدفع والقياس، وتوثيق تكلفة المواد والتركيب لكل طلب.</td><td>صفحات دقيقة؛ رحلة شراء مجرّبة؛ سجل أسبوعي للطلبات والقنوات والهامش.</td></tr>
-    <tr><td>الأيام 31–60 · بناء الثقة والاختبار</td><td>نشر مقاطع تركيب حقيقية قبل/بعد، شرح الطبقات والدرع والضمان، فيديوهات حسب موديل السيارة، وجمع تقييمات حقيقية عبر QR. اختبار رسائل وحملات مختلفة باستخدام روابط أو رموز تتبع خاصة.</td><td>نسبة رد على الاستفسارات، استشارات/طلبات مكتملة، إضافة الدرع، تكلفة الطلب وهامش الربح.</td></tr>
-    <tr><td>الأيام 61–90 · توسيع ما ينجح</td><td>زيادة الاستثمار تدريجيًا في القناة والرسالة الأفضل، إنشاء صفحات للموديلات الأكثر طلبًا في قطر، وتجربة إحالات العملاء وعروض السيارة الثانية وشراكات منتقاة بعد حساب الهوامش.</td><td>طلبات مدفوعة مربحة، متوسط قيمة الطلب، نسبة الدرع، التقييمات والإحالات، والقدرة على التنفيذ.</td></tr>
-  </tbody></table></div>
-  <div class="two" style="margin-top:10px"><article class="card"><h3>إيقاع المحتوى المقترح للاختبار</h3><p>الملف يقترح 4–5 منشورات أسبوعيًا مع ستوريات يومية؛ نطبّق ذلك فقط إذا توفرت قدرة تصوير وإنتاج مستمرة. تتوزع الموضوعات على: قبل/بعد وتركيب واقعي، «هل تناسب سيارتي؟» حسب الموديل، اختبار الدرع، شرح الفرق بين التلبيسة والحماية، الخياطة والجودة، وتجارب العملاء بموافقتهم. تنظّم الهايلايتس للأسعار والباقات والخامات والتركيب والضمان والتقييمات.</p></article><article class="card"><h3>ميزانية اختبار وملاحظة الاعتماد</h3><p>ملف الـPDF يقترح نحو <b>3,100 ر.س شهريًا</b>: 45% إعلانات Meta/Instagram إلى واتساب، 25% TikTok، 15% إعادة استهداف، و15% محتوى/مواد تقييم. أما تقرير ديسمبر الحالي فيقترح <b>2,400 ر.س لاختبار مدته 10 أيام</b>. هذان إطاران مختلفان؛ نحتاج اعتماد ميزانية واحدة وتحديد العملة وفترة الإنفاق، مع فصل ميزانية الإنتاج عن الإنفاق الإعلاني وتوسيع الصرف بعد ربطه بطلبات مدفوعة وهامشها.</p></article></div>
-  <div class="callout amber"><b>تنبيه التقييمات:</b> الهدف الوارد في ملف الـPDF (50 تقييم Google خلال 90 يومًا) يُعامل كهدف إرشادي بعد معرفة العدد الحالي وحجم العملاء، مع طلب تقييم صادق من جميع العملاء دون مقابل أو انتقاء للمراجعات الإيجابية؛ سياسة Google تمنع الحوافز مقابل التقييمات.</div>
-  <div class="callout">مبادرات نمو أبعد مدى، بعد ثبات التشغيل: برنامج إحالة بسيط، عروض السيارة الثانية أو استبدال الدرع بعد التحقق من دورة الاستخدام والتكلفة، شراكات مع معارض ووكلاء وشركات تأجير أو أساطيل، وتجربة سوق خليجي جديد بعد استقرار الخدمة داخل قطر.</div>
-  <h3 class="section-title" style="margin-top:14px">أفكار إضافية لزيادة قيمة الطلب وتسهيل الشراء</h3>
-  <div class="two">
-    <article class="card"><h3>منتجات وتجارب أعلى قيمة</h3><ul class="bullets">
-      <li><b>تطريز شخصي:</b> اسم العميل أو أحرفه الأولى أو شعار معتمد على التلبيسة كإضافة مدفوعة أو هدية، بعد التحقق من إمكانية الإنتاج والتكلفة وزمن التنفيذ.</li>
-      <li><b>باقة داخلية متناسقة:</b> تلبيسة VICO مع تلبيسة شنطة وغطاء دركسون ومعطر بلون متناسق؛ بسعر باقة أقل من مجموع الأسعار المنفصلة، بعد التأكد من التوافق والمخزون والهامش.</li>
-      <li><b>عرض عند التركيب:</b> يشرح الفني الدرع أو تلبيسة الشنطة للعميل ويعرض سعر إضافة واضحًا. يُستخدم «اليوم فقط» أو خصم محدود فقط إذا كان العرض حقيقيًا ومحدد المدة.</li>
-      <li><b>خط VIP:</b> خامة وتفاصيل وتشطيب أعلى بسعر أعلى لأصحاب السيارات الفاخرة؛ نعرضه كخيار متميز، مع إبقاء الباقة المتوسطة خيارًا واضح القيمة.</li>
-    </ul></article>
-    <article class="card"><h3>تسهيل قرار الشراء</h3><ul class="bullets">
-      <li><b>تصور لوني سريع:</b> يستقبل الفريق صورة داخلية السيارة ويرسل تصورًا تقريبيًا للون أو الخامة؛ يوضّح للعميل أنه معاينة إرشادية، ويُحدد زمن التسليم بعد اختبار سير العمل.</li>
-      <li><b>زيارة عينات مجانية:</b> خيار معاينة عينات في المنزل للطلبات الأعلى قيمة أو للمناطق التي تسمح بها تكلفة التوصيل وجدول الفنيين.</li>
-      <li><b>تقسيط:</b> يُفعّل فقط إذا توفرت بوابة أو خدمة تقسيط معتمدة في قطر، وبعد توضيح الرسوم والأهلية والشروط للعميل.</li>
-      <li><b>مدة تجهيز صريحة:</b> نشر المدة الواقعية حسب المنتج وموديل السيارة، وإتاحة تجهيز مستعجل برسوم إضافية عندما تسمح الطاقة التشغيلية.</li>
-      <li><b>ضمان رضا محدد:</b> اعتماد معالجة مجانية لعيوب التركيب أو التشطيب ضمن نطاق ومدة مكتوبين، مع عدم الخلط بينها وبين ضمان السنتين وشروطه.</li>
-    </ul></article>
-    <article class="card"><h3>الوصول إلى عملاء جدد</h3><ul class="bullets">
-      <li><b>موسم البر والشتاء:</b> محتوى عن الرمل والغبار وسهولة تنظيف درع القماش، بصياغة واقعية مثل «خفف أثر الرمل على أرضية سيارتك بعد البر».</li>
-      <li><b>شراكات العناية بالسيارات:</b> مراكز التظليل وPPF والنانو والتلميع؛ تتبع الإحالات برمز أو نموذج واضح، وتُعتمد عمولة الإحالة بعد حساب الهامش.</li>
-      <li><b>صناع محتوى سيارات:</b> عينات مختارة لحسابات صغيرة ومتوسطة ذات جمهور قطري مناسب، مقابل تجربة تركيب حقيقية وصريحة عن التعاون، دون اشتراط رأي إيجابي.</li>
-      <li><b>اختبار Snapchat:</b> تجربة محدودة بمحتوى التحول والتركيب، ومقارنة تكلفة الاستفسار المؤهل بنتائج Meta وTikTok.</li>
-      <li><b>بحث Google:</b> اختبار كلمات ذات نية شراء مثل «تلبيسات سيارات قطر» و«دعاسات لاندكروزر» بعد التحقق من حجم البحث وتكلفة النقرة وربطها بطلبات مكتملة.</li>
-      <li><b>ركن عرض:</b> سيارة مجهزة بعينات في تجمع سيارات أو فعالية مول، بعد التحقق من التصاريح والتكلفة وآلية جمع الاستفسارات.</li>
-    </ul></article>
-    <article class="card"><h3>الاستفادة من العملاء والاستفسارات السابقة</h3><ul class="bullets">
-      <li><b>إعادة تواصل:</b> رسالة مناسبة لاستفسارات سابقة لم تتحول لطلب، عبر واتساب لمن وافقوا على التواصل؛ مع عرض حقيقي محدد المدة ورابط مباشر للطلب.</li>
-      <li><b>تنظيف وصيانة:</b> خدمة مدفوعة لتنظيف التلبيسة بعد نحو سنة، وفق تعليمات العناية والخامة، مع تعريف العميل بخيارات الدرع أو الاستبدال دون الإضرار بالضمان.</li>
-      <li><b>إحالة وعودة:</b> عرض السيارة الثانية أو إحالة صديق كاختبار محدود، بعد التحقق من التكلفة والهامش وتسجيل مصدر كل طلب.</li>
-    </ul></article>
-  </div>
-  <div class="callout amber"><b>طريقة اختبار الأفكار:</b> لا نطلقها كلها معًا. نبدأ بباقة داخلية متناسقة، عرض الدرع وقت التركيب، تصور لوني، واختبار Snapchat أو بحث Google كلٌّ على حدة. نتابع الإضافة لكل طلب، متوسط قيمة الطلب، الاستفسار المؤهل، الطلب المكتمل، الهامش، وتكلفة التنفيذ قبل التوسع.</div></section><section class="section" id="december">
+                <h2 class="section-title">6. خطة تحسين وتحويل خلال 90 يوماً</h2>
+                <p class="section-intro">المقترحات التالية واردة في ملف تحليل الأعمال بتاريخ 23 نوفمبر 2026، وتحوّلها إلى مراحل تنفيذ قابلة للمتابعة. تُعتمد الأسعار والميزانية بعد مراجعة المخزون والتكلفة وقدرة التركيب.</p>
+                <div class="callout"><b>ترتيب المنتج للعميل:</b> أرضية السيارة الأصلية ← تلبيسة VICO (المنتج الأساسي) ← درع VICO اختياري قابل للإزالة. الفصل البصري واللفظي بين التلبيسة والدرع يقلل الخلط ويشرح سبب اختيار كل طبقة.</div>
+                <div class="two" style="margin-top:10px">
+                    <article class="card">
+                        <h3>هيكل المنتجات والباقات المقترح</h3>
+                        <ul class="bullets">
+                            <li><b>تلبيسة VICO:</b> المنتج الأساسي؛ تظهر خيارات Diamond (12 مم)، Laser (10 مم)، وLuxury / Elegance (14 مم) كما وردت في الملف، بعد مطابقة المواصفات مع كتالوج المنتجات.</li>
+                            <li><b>VICO Shield – Fabric:</b> طبقة علوية قماشية قابلة للإزالة تساعد على التقاط الغبار والرمل ويمكن نفضها أو تنظيفها وفق تعليمات العناية.</li>
+                            <li><b>VICO Shield – Clear / Waterproof:</b> طبقة علوية شفافة مقاومة للسوائل، تُمسح بسهولة بحسب مواصفات المنتج.</li>
+                            <li><b>أساسي:</b> التلبيسة فقط. <b>حماية (موصى بها):</b> التلبيسة + درع القماش. <b>حماية كاملة:</b> التلبيسة + الدرع الشفاف. لا نعرض سعرًا قبل تأكيد سعر كل تركيبة وهامشها.</li>
+                            <li>نوضح أن الدرع طبقة إضافية اختيارية تحمي التلبيسة؛ ونستخدم أسماء ورسومًا متسقة في الموقع والإعلانات والكتالوج.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>إصلاح مسار الشراء والثقة</h3>
+                        <ul class="bullets">
+                            <li>استبدال السعر الظاهر بصفر بسعر فعلي، أو «يبدأ من ___ ر.ق» مع بيان ما يغيّر السعر، وإظهار الأسعار قبل اختيار الخيارات.</li>
+                            <li>إضافة زر واتساب واضح في صفحات المنتج والبايو وGoogle Business Profile، وإعداد كتالوج WhatsApp Business وردود سريعة وتصنيفات متابعة.</li>
+                            <li>توحيد شرح التوصيل والتركيب المجاني في جميع مناطق قطر، وضمان السنتين وشروطه، ومنشأ المنتج والخامات.</li>
+                            <li>فحص رابط الدفع وإتمام طلب تجريبي على الهاتف، وتسجيل السلة وبدء الدفع وفشل الدفع والشراء المكتمل.</li>
+                            <li>استبدال التقييمات الصفرية بدعوة محايدة للعملاء الحقيقيين لترك رأي بعد التركيب، عبر رابط أو QR؛ دون هدايا أو خصومات مقابل التقييم.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="table-wrap card" style="margin-top:10px">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>المرحلة</th>
+                                <th>العمل</th>
+                                <th>علامة التقدم</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>الأيام 1–30 · إصلاح الأساسيات</td>
+                                <td>اعتماد مواصفات وأسعار المنتجات والباقات، تصحيح السعر والصور والأسماء، إضافة واتساب، إصلاح الدفع والقياس، وتوثيق تكلفة المواد والتركيب لكل طلب.</td>
+                                <td>صفحات دقيقة؛ رحلة شراء مجرّبة؛ سجل أسبوعي للطلبات والقنوات والهامش.</td>
+                            </tr>
+                            <tr>
+                                <td>الأيام 31–60 · بناء الثقة والاختبار</td>
+                                <td>نشر مقاطع تركيب حقيقية قبل/بعد، شرح الطبقات والدرع والضمان، فيديوهات حسب موديل السيارة، وجمع تقييمات حقيقية عبر QR. اختبار رسائل وحملات مختلفة باستخدام روابط أو رموز تتبع خاصة.</td>
+                                <td>نسبة رد على الاستفسارات، استشارات/طلبات مكتملة، إضافة الدرع، تكلفة الطلب وهامش الربح.</td>
+                            </tr>
+                            <tr>
+                                <td>الأيام 61–90 · توسيع ما ينجح</td>
+                                <td>زيادة الاستثمار تدريجيًا في القناة والرسالة الأفضل، إنشاء صفحات للموديلات الأكثر طلبًا في قطر، وتجربة إحالات العملاء وعروض السيارة الثانية وشراكات منتقاة بعد حساب الهوامش.</td>
+                                <td>طلبات مدفوعة مربحة، متوسط قيمة الطلب، نسبة الدرع، التقييمات والإحالات، والقدرة على التنفيذ.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="two" style="margin-top:10px">
+                    <article class="card">
+                        <h3>إيقاع المحتوى المقترح للاختبار</h3>
+                        <p>الملف يقترح 4–5 منشورات أسبوعيًا مع ستوريات يومية؛ نطبّق ذلك فقط إذا توفرت قدرة تصوير وإنتاج مستمرة. تتوزع الموضوعات على: قبل/بعد وتركيب واقعي، «هل تناسب سيارتي؟» حسب الموديل، اختبار الدرع، شرح الفرق بين التلبيسة والحماية، الخياطة
+                            والجودة، وتجارب العملاء بموافقتهم. تنظّم الهايلايتس للأسعار والباقات والخامات والتركيب والضمان والتقييمات.</p>
+                    </article>
+                    <article class="card">
+                        <h3>ميزانية اختبار وملاحظة الاعتماد</h3>
+                        <p>ملف الـPDF يقترح نحو <b>3,100 ر.س شهريًا</b>: 45% إعلانات Meta/Instagram إلى واتساب، 25% TikTok، 15% إعادة استهداف، و15% محتوى/مواد تقييم. أما تقرير ديسمبر الحالي فيقترح <b>2,400 ر.س لاختبار مدته 10 أيام</b>. هذان إطاران مختلفان؛
+                            نحتاج اعتماد ميزانية واحدة وتحديد العملة وفترة الإنفاق، مع فصل ميزانية الإنتاج عن الإنفاق الإعلاني وتوسيع الصرف بعد ربطه بطلبات مدفوعة وهامشها.</p>
+                    </article>
+                </div>
+                <div class="callout amber"><b>تنبيه التقييمات:</b> الهدف الوارد في ملف الـPDF (50 تقييم Google خلال 90 يومًا) يُعامل كهدف إرشادي بعد معرفة العدد الحالي وحجم العملاء، مع طلب تقييم صادق من جميع العملاء دون مقابل أو انتقاء للمراجعات الإيجابية؛ سياسة Google تمنع الحوافز
+                    مقابل التقييمات.</div>
+                <div class="callout">مبادرات نمو أبعد مدى، بعد ثبات التشغيل: برنامج إحالة بسيط، عروض السيارة الثانية أو استبدال الدرع بعد التحقق من دورة الاستخدام والتكلفة، شراكات مع معارض ووكلاء وشركات تأجير أو أساطيل، وتجربة سوق خليجي جديد بعد استقرار الخدمة داخل قطر.</div>
+                <h3 class="section-title" style="margin-top:14px">أفكار إضافية لزيادة قيمة الطلب وتسهيل الشراء</h3>
+                <div class="two">
+                    <article class="card">
+                        <h3>منتجات وتجارب أعلى قيمة</h3>
+                        <ul class="bullets">
+                            <li><b>تطريز شخصي:</b> اسم العميل أو أحرفه الأولى أو شعار معتمد على التلبيسة كإضافة مدفوعة أو هدية، بعد التحقق من إمكانية الإنتاج والتكلفة وزمن التنفيذ.</li>
+                            <li><b>باقة داخلية متناسقة:</b> تلبيسة VICO مع تلبيسة شنطة وغطاء دركسون ومعطر بلون متناسق؛ بسعر باقة أقل من مجموع الأسعار المنفصلة، بعد التأكد من التوافق والمخزون والهامش.</li>
+                            <li><b>عرض عند التركيب:</b> يشرح الفني الدرع أو تلبيسة الشنطة للعميل ويعرض سعر إضافة واضحًا. يُستخدم «اليوم فقط» أو خصم محدود فقط إذا كان العرض حقيقيًا ومحدد المدة.</li>
+                            <li><b>خط VIP:</b> خامة وتفاصيل وتشطيب أعلى بسعر أعلى لأصحاب السيارات الفاخرة؛ نعرضه كخيار متميز، مع إبقاء الباقة المتوسطة خيارًا واضح القيمة.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>تسهيل قرار الشراء</h3>
+                        <ul class="bullets">
+                            <li><b>تصور لوني سريع:</b> يستقبل الفريق صورة داخلية السيارة ويرسل تصورًا تقريبيًا للون أو الخامة؛ يوضّح للعميل أنه معاينة إرشادية، ويُحدد زمن التسليم بعد اختبار سير العمل.</li>
+                            <li><b>زيارة عينات مجانية:</b> خيار معاينة عينات في المنزل للطلبات الأعلى قيمة أو للمناطق التي تسمح بها تكلفة التوصيل وجدول الفنيين.</li>
+                            <li><b>تقسيط:</b> يُفعّل فقط إذا توفرت بوابة أو خدمة تقسيط معتمدة في قطر، وبعد توضيح الرسوم والأهلية والشروط للعميل.</li>
+                            <li><b>مدة تجهيز صريحة:</b> نشر المدة الواقعية حسب المنتج وموديل السيارة، وإتاحة تجهيز مستعجل برسوم إضافية عندما تسمح الطاقة التشغيلية.</li>
+                            <li><b>ضمان رضا محدد:</b> اعتماد معالجة مجانية لعيوب التركيب أو التشطيب ضمن نطاق ومدة مكتوبين، مع عدم الخلط بينها وبين ضمان السنتين وشروطه.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>الوصول إلى عملاء جدد</h3>
+                        <ul class="bullets">
+                            <li><b>موسم البر والشتاء:</b> محتوى عن الرمل والغبار وسهولة تنظيف درع القماش، بصياغة واقعية مثل «خفف أثر الرمل على أرضية سيارتك بعد البر».</li>
+                            <li><b>شراكات العناية بالسيارات:</b> مراكز التظليل وPPF والنانو والتلميع؛ تتبع الإحالات برمز أو نموذج واضح، وتُعتمد عمولة الإحالة بعد حساب الهامش.</li>
+                            <li><b>صناع محتوى سيارات:</b> عينات مختارة لحسابات صغيرة ومتوسطة ذات جمهور قطري مناسب، مقابل تجربة تركيب حقيقية وصريحة عن التعاون، دون اشتراط رأي إيجابي.</li>
+                            <li><b>اختبار Snapchat:</b> تجربة محدودة بمحتوى التحول والتركيب، ومقارنة تكلفة الاستفسار المؤهل بنتائج Meta وTikTok.</li>
+                            <li><b>بحث Google:</b> اختبار كلمات ذات نية شراء مثل «تلبيسات سيارات قطر» و«دعاسات لاندكروزر» بعد التحقق من حجم البحث وتكلفة النقرة وربطها بطلبات مكتملة.</li>
+                            <li><b>ركن عرض:</b> سيارة مجهزة بعينات في تجمع سيارات أو فعالية مول، بعد التحقق من التصاريح والتكلفة وآلية جمع الاستفسارات.</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>الاستفادة من العملاء والاستفسارات السابقة</h3>
+                        <ul class="bullets">
+                            <li><b>إعادة تواصل:</b> رسالة مناسبة لاستفسارات سابقة لم تتحول لطلب، عبر واتساب لمن وافقوا على التواصل؛ مع عرض حقيقي محدد المدة ورابط مباشر للطلب.</li>
+                            <li><b>تنظيف وصيانة:</b> خدمة مدفوعة لتنظيف التلبيسة بعد نحو سنة، وفق تعليمات العناية والخامة، مع تعريف العميل بخيارات الدرع أو الاستبدال دون الإضرار بالضمان.</li>
+                            <li><b>إحالة وعودة:</b> عرض السيارة الثانية أو إحالة صديق كاختبار محدود، بعد التحقق من التكلفة والهامش وتسجيل مصدر كل طلب.</li>
+                        </ul>
+                    </article>
+                </div>
+                <div class="callout amber"><b>طريقة اختبار الأفكار:</b> لا نطلقها كلها معًا. نبدأ بباقة داخلية متناسقة، عرض الدرع وقت التركيب، تصور لوني، واختبار Snapchat أو بحث Google كلٌّ على حدة. نتابع الإضافة لكل طلب، متوسط قيمة الطلب، الاستفسار المؤهل، الطلب المكتمل، الهامش،
+                    وتكلفة التنفيذ قبل التوسع.</div>
+            </section>
+            <section class="section" id="december">
                 <h2 class="section-title">7. خطة تنفيذ ديسمبر 2026</h2>
-                <p class="section-intro">خطة تشغيلية مبدئية؛ المواعيد والميزانيات النهائية تُعتمد مع الفريق بعد استلام
-                    البيانات.
+                <p class="section-intro">خطة تشغيلية مبدئية؛ المواعيد والميزانيات النهائية تُعتمد مع الفريق بعد استلام البيانات.
                 </p>
                 <div class="timeline">
                     <article class="week"><b>الأسبوع 1 · التجهيز والإطلاق حول نزول الرواتب</b>
-                        <p>فصل نتائج أكتوبر ونوفمبر، فحص الدفع على الهاتف، ضبط الأحداث والروابط، وتجهيز صفحات المنتجات
-                            والعرض.
+                        <p>فصل نتائج أكتوبر ونوفمبر، فحص الدفع على الهاتف، ضبط الأحداث والروابط، وتجهيز صفحات المنتجات والعرض.
                         </p>
                     </article>
                     <article class="week"><b>الأسبوع 2 · متابعة نتائج الحملة</b>
-                        <p>إطلاق مسار فيديو القيمة ومسار العرض. تغيير عنصر واحد في كل اختبار، مع تسجيل الإنفاق والنتائج
-                            يوميًا.
+                        <p>إطلاق مسار فيديو القيمة ومسار العرض. تغيير عنصر واحد في كل اختبار، مع تسجيل الإنفاق والنتائج يوميًا.
                         </p>
                     </article>
                     <article class="week"><b>الأسبوع 3 · تحسين التحويل</b>
-                        <p>مراجعة الزيارات والسلال والدفع. معالجة أكبر نقطة تسرب، وتجربة إعادة استهداف إذا توفرت بيانات
-                            كافية.
+                        <p>مراجعة الزيارات والسلال والدفع. معالجة أكبر نقطة تسرب، وتجربة إعادة استهداف إذا توفرت بيانات كافية.
                         </p>
                     </article>
                     <article class="week"><b>الأسبوع 4 · قرار الشهر</b>
-                        <p>مقارنة الطلبات المكتملة وتكلفتها والهامش. إيقاف ما لا يعمل، وتوسيع الأفضل تدريجيًا، وتجهيز
-                            تقرير يناير.</p>
+                        <p>مقارنة الطلبات المكتملة وتكلفتها والهامش. إيقاف ما لا يعمل، وتوسيع الأفضل تدريجيًا، وتجهيز تقرير يناير.</p>
                     </article>
                 </div>
                 <div class="two" style="margin-top:12px">
@@ -1511,8 +1499,7 @@
                         <ul class="bullets">
                             <li><b>إنتاج الفيديو:</b> المستخدم ذكر أنه سيتولى تصوير وصناعة الفيديوهات.</li>
                             <li><b>التسويق:</b> إعداد النسخ والإعلانات والتتبع ومراجعة النتائج.</li>
-                            <li><b>التجارة الإلكترونية / خدمة العملاء:</b> اختبار الدفع والرد على استفسارات السعر
-                                والطلب.
+                            <li><b>التجارة الإلكترونية / خدمة العملاء:</b> اختبار الدفع والرد على استفسارات السعر والطلب.
                             </li>
                             <li>تحتاج أسماء المسؤولين ومواعيد التسليم إلى اعتماد من الفريق.</li>
                         </ul>
@@ -1530,8 +1517,7 @@
             </section>
             <section class="section" id="kpis">
                 <h2 class="section-title">8. مؤشرات الأداء التي نتابعها</h2>
-                <p class="section-intro">خط الأساس والأهداف الرقمية غير متاحة الآن؛ نملؤها من تقارير المنصات والمتجر قبل
-                    اعتماد مستهدفات.</p>
+                <p class="section-intro">خط الأساس والأهداف الرقمية غير متاحة الآن؛ نملؤها من تقارير المنصات والمتجر قبل اعتماد مستهدفات.</p>
                 <div class="card table-wrap">
                     <table class="table">
                         <thead>
@@ -1582,32 +1568,35 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="callout green"><b>يعني إيه مستهدف مبيعات؟</b> هو عدد الطلبات المدفوعة أو قيمة المبيعات التي نريد تحقيقها خلال مدة الحملة. لم نضع رقمًا الآن لأن مبيعات الموقع قليلة، ولا نملك بعد خط أساس موثوقًا لمتوسط قيمة الطلب وهامش الربح. بعد متابعة الطلبات المدفوعة ومطابقتها مع الموقع وبوابة الدفع، نحدد هدفًا واقعيًا للشهر التالي.</div>
+                <div class="callout green"><b>يعني إيه مستهدف مبيعات؟</b> هو عدد الطلبات المدفوعة أو قيمة المبيعات التي نريد تحقيقها خلال مدة الحملة. لم نضع رقمًا الآن لأن مبيعات الموقع قليلة، ولا نملك بعد خط أساس موثوقًا لمتوسط قيمة الطلب وهامش الربح. بعد متابعة الطلبات المدفوعة
+                    ومطابقتها مع الموقع وبوابة الدفع، نحدد هدفًا واقعيًا للشهر التالي.</div>
             </section>
             <section class="section" id="needed">
                 <h2 class="section-title">9. ما نحتاجه لإقفال تقرير نوفمبر واعتماد ديسمبر</h2>
                 <div class="two">
                     <article class="card">
                         <h3>ملفات وبيانات نوفمبر</h3>
-                        <ol class="bullets"><li><b>بيانات المنتجات:</b> لا تتوفر مبيعات ويب كافية لتحديد الأعلى مبيعًا عبر الموقع؛ تبقى أسعار البيع وتكلفة المنتج والخصومات، وتكلفة التوصيل والتركيب على الشركة إن توفرت، لاستكمال حساب الهامش. التوصيل والتركيب مجانيان للعميل حتى باب المنزل.</li></ol>
+                        <ol class="bullets">
+                            <li><b>بيانات المنتجات:</b> لا تتوفر مبيعات ويب كافية لتحديد الأعلى مبيعًا عبر الموقع؛ تبقى أسعار البيع وتكلفة المنتج والخصومات، وتكلفة التوصيل والتركيب على الشركة إن توفرت، لاستكمال حساب الهامش. التوصيل والتركيب مجانيان للعميل
+                                حتى باب المنزل.</li>
+                        </ol>
                     </article>
                     <article class="card">
                         <h3>قرارات ديسمبر</h3>
-                        <ol class="bullets"><li>التوقيت: بداية الشهر بالتزامن مع نزول الرواتب.</li><li>ميزانية اختبار مقترحة: 2,400 SAR لعشرة أيام، موزعة بالتساوي بين Meta وTikTok، مع عدم التوسع قبل ظهور طلبات مدفوعة قابلة للتحقق.</li><li>المخزون والقدرة على تنفيذ التوصيل والتركيب المجانيين حتى باب العميل.</li><li>الدفع عبر الموقع أو بوابة الدفع، مع اختبار رحلة الطلب كاملة.</li><li>تأكيد شروط ضمان السنتين وحدود أي عرض أو خصم قبل نشره.</li></ol>
+                        <ol class="bullets">
+                            <li>التوقيت: بداية الشهر بالتزامن مع نزول الرواتب.</li>
+                            <li>ميزانية اختبار مقترحة: 2,400 SAR لعشرة أيام، موزعة بالتساوي بين Meta وTikTok، مع عدم التوسع قبل ظهور طلبات مدفوعة قابلة للتحقق.</li>
+                            <li>المخزون والقدرة على تنفيذ التوصيل والتركيب المجانيين حتى باب العميل.</li>
+                            <li>الدفع عبر الموقع أو بوابة الدفع، مع اختبار رحلة الطلب كاملة.</li>
+                            <li>تأكيد شروط ضمان السنتين وحدود أي عرض أو خصم قبل نشره.</li>
+                        </ol>
                     </article>
                 </div>
-                <div class="callout amber">إلى أن تصل هذه البيانات، يظل هذا التقرير إطارًا إداريًا وخطة اختبار أولية،
-                    وليس تقرير نتائج نهائيًا عن أداء نوفمبر.</div>
+                <div class="callout amber">إلى أن تصل هذه البيانات، يظل هذا التقرير إطارًا إداريًا وخطة اختبار أولية، وليس تقرير نتائج نهائيًا عن أداء نوفمبر.</div>
             </section>
-            <div class="footnote">VICO Qatar · لوحة تقارير قابلة للتوسع للبراندات والأشهر القادمة · الأرقام غير المؤكدة
-                لا تُعرض كحقائق</div>
+            <div class="footnote">VICO Qatar · لوحة تقارير قابلة للتوسع للبراندات والأشهر القادمة · الأرقام غير المؤكدة لا تُعرض كحقائق</div>
         </main>
     </div>
 </body>
 
 </html>
-
-
-
-
-
